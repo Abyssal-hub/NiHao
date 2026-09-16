@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useQuiz } from '../hooks/useQuiz'
 import { useSpeech } from '../hooks/useSpeech'
@@ -55,72 +55,124 @@ function PinyinDisplay({ pinyin }) {
 }
 
 function StrokeOrderDisplay({ hanzi }) {
-  const [strokes, setStrokes] = useState([])
-  const [currentStroke, setCurrentStroke] = useState(0)
   const [showStroke, setShowStroke] = useState(false)
+  const canvasRefs = useRef([])
+  const writersRef = useRef([])
+  const hanziWriterLoaded = useRef(false)
 
+  // Load Hanzi Writer script dynamically
   useEffect(() => {
-    setStrokes([])
-    setCurrentStroke(0)
+    if (window.HanziWriter) {
+      hanziWriterLoaded.current = true
+      return
+    }
+    const script = document.createElement('script')
+    script.src = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js'
+    script.async = true
+    script.onload = () => {
+      hanziWriterLoaded.current = true
+    }
+    document.body.appendChild(script)
+  }, [])
+
+  // Cleanup writers when hanzi changes
+  useEffect(() => {
     setShowStroke(false)
+    writersRef.current.forEach((w) => {
+      if (w && w.cancelAnimation) w.cancelAnimation()
+    })
+    writersRef.current = []
+    canvasRefs.current = []
   }, [hanzi])
 
-  const loadStrokeOrder = async () => {
+  const toggleStroke = () => {
     if (showStroke) {
+      // Cancel any running animations
+      writersRef.current.forEach((w) => {
+        if (w && w.cancelAnimation) w.cancelAnimation()
+      })
+      writersRef.current = []
       setShowStroke(false)
       return
     }
 
-    if (hanzi.length === 1) {
-      try {
-        // Use a simple stroke count approximation
-        setStrokes([1, 2, 3, 4, 5])
-        setShowStroke(true)
-      } catch (e) {
-        console.log('Stroke order not available')
+    // Small delay to ensure DOM is ready
+    setTimeout(() => {
+      if (!window.HanziWriter) {
+        console.warn('Hanzi Writer not loaded yet')
+        return
       }
-    } else {
-      // For multi-char words, show each char's stroke count
-      setShowStroke(true)
-    }
+
+      const chars = hanzi.split('')
+      writersRef.current = chars.map((char, idx) => {
+        const canvas = canvasRefs.current[idx]
+        if (!canvas) return null
+
+        try {
+          const writer = window.HanziWriter.create(canvas, char, {
+            width: 80,
+            height: 80,
+            padding: 5,
+            strokeAnimationSpeed: 1,
+            delayBetweenStrokes: 150,
+            radicalColor: '#168F16',
+            strokeColor: '#333333',
+            outlineColor: '#DDDDDD',
+            showCharacter: false,
+            showOutline: true,
+          })
+
+          // Animate the strokes
+          writer.animateCharacter()
+          return writer
+        } catch (e) {
+          console.warn(`Failed to create stroke animation for ${char}:`, e)
+          return null
+        }
+      })
+    }, 50)
+
+    setShowStroke(true)
   }
 
   return (
     <div className="mt-3">
       <button
-        onClick={loadStrokeOrder}
-        className="text-xs text-gray-400 hover:text-gray-600 underline"
+        onClick={toggleStroke}
+        className="text-xs text-blue-500 hover:text-blue-700 font-medium"
       >
-        {showStroke ? 'Hide stroke info' : 'Show stroke info'}
+        {showStroke ? '▲ Hide stroke animation' : '▼ Show stroke animation'}
       </button>
       {showStroke && (
         <div className="mt-2 p-3 bg-gray-50 rounded-xl">
-          {hanzi.split('').map((char, idx) => (
-            <div key={idx} className="flex items-center gap-3 mb-2 last:mb-0">
-              <span className="text-2xl hanzi-display">{char}</span>
-              <span className="text-sm text-gray-500">
-                {getStrokeCount(char)} strokes
-              </span>
-            </div>
-          ))}
+          <div className="flex justify-end mb-2">
+            <button
+              onClick={() => {
+                writersRef.current.forEach((w) => {
+                  if (w && w.animateCharacter) w.animateCharacter()
+                })
+              }}
+              className="text-xs px-3 py-1 bg-blue-100 text-blue-700 rounded-full hover:bg-blue-200 transition-colors"
+            >
+              🔄 Replay
+            </button>
+          </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {hanzi.split('').map((char, idx) => (
+              <div key={idx} className="flex flex-col items-center">
+                <div
+                  ref={(el) => (canvasRefs.current[idx] = el)}
+                  className="bg-white rounded-lg shadow-sm"
+                  style={{ width: 80, height: 80 }}
+                />
+                <span className="text-xs text-gray-400 mt-1">{char}</span>
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </div>
   )
-}
-
-// Approximate stroke counts for common HSK1 characters
-function getStrokeCount(char) {
-  const counts = {
-    '一': 1, '二': 2, '三': 3, '十': 2, '人': 2, '口': 3, '日': 4, '月': 4,
-    '你': 7, '好': 6, '我': 7, '他': 5, '她': 6, '是': 9, '不': 4, '了': 2,
-    '在': 6, '有': 6, '家': 10, '学': 8, '校': 10, '老': 6, '师': 6, '吗': 6,
-    '呢': 8, '很': 9, '大': 3, '小': 3, '中': 4, '国': 8, '年': 6,
-    '号': 5, '星': 9, '期': 12, '今': 4, '天': 4, '明': 8, '昨': 9, '去': 5,
-    '来': 7, '吃': 6, '喝': 12, '说': 9, '看': 9, '见': 4, '买': 6, '卖': 8,
-    '钱': 10, '块': 7, '杯': 8, '茶': 9, '饭': 7, '菜': 11, '水': 4, '水果': 8,
-  }
-  return counts[char] || '?'
 }
 
 function ExampleSentences({ examples }) {

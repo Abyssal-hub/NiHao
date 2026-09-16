@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useFlashcard } from '../hooks/useFlashcard'
 import { useSpeech } from '../hooks/useSpeech'
@@ -67,6 +67,115 @@ function ExampleSentences({ examples }) {
           </li>
         ))}
       </ul>
+    </div>
+  )
+}
+
+function StrokeOrderDisplay({ hanzi }) {
+  const [showStroke, setShowStroke] = useState(false)
+  const canvasRefs = useRef([])
+  const writersRef = useRef([])
+
+  useEffect(() => {
+    if (!window.HanziWriter) {
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js'
+      script.async = true
+      document.body.appendChild(script)
+    }
+  }, [])
+
+  useEffect(() => {
+    setShowStroke(false)
+    writersRef.current.forEach((w) => {
+      if (w && w.cancelAnimation) w.cancelAnimation()
+    })
+    writersRef.current = []
+    canvasRefs.current = []
+  }, [hanzi])
+
+  const toggleStroke = () => {
+    if (showStroke) {
+      writersRef.current.forEach((w) => {
+        if (w && w.cancelAnimation) w.cancelAnimation()
+      })
+      writersRef.current = []
+      setShowStroke(false)
+      return
+    }
+
+    setTimeout(() => {
+      if (!window.HanziWriter) return
+
+      const chars = hanzi.split('')
+      writersRef.current = chars.map((char, idx) => {
+        const canvas = canvasRefs.current[idx]
+        if (!canvas) return null
+
+        try {
+          const writer = window.HanziWriter.create(canvas, char, {
+            width: 60,
+            height: 60,
+            padding: 4,
+            strokeAnimationSpeed: 1,
+            delayBetweenStrokes: 150,
+            radicalColor: '#168F16',
+            strokeColor: '#333333',
+            outlineColor: '#DDDDDD',
+            showCharacter: false,
+            showOutline: true,
+          })
+          writer.animateCharacter()
+          return writer
+        } catch (e) {
+          return null
+        }
+      })
+    }, 50)
+
+    setShowStroke(true)
+  }
+
+  return (
+    <div className="mt-3">
+      <button
+        onClick={(e) => {
+          e.stopPropagation()
+          toggleStroke()
+        }}
+        className="text-xs text-blue-500 hover:text-blue-700 font-medium"
+      >
+        {showStroke ? '▲ Hide strokes' : '▼ Show stroke animation'}
+      </button>
+      {showStroke && (
+        <div className="mt-2 p-2 bg-gray-50 rounded-xl">
+          <div className="flex justify-end mb-1">
+            <button
+              onClick={(e) => {
+                e.stopPropagation()
+                writersRef.current.forEach((w) => {
+                  if (w && w.animateCharacter) w.animateCharacter()
+                })
+              }}
+              className="text-xs px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full hover:bg-blue-200"
+            >
+              🔄
+            </button>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2">
+            {hanzi.split('').map((char, idx) => (
+              <div key={idx} className="flex flex-col items-center">
+                <div
+                  ref={(el) => (canvasRefs.current[idx] = el)}
+                  className="bg-white rounded-lg shadow-sm"
+                  style={{ width: 60, height: 60 }}
+                />
+                <span className="text-xs text-gray-400 mt-0.5">{char}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -268,10 +377,11 @@ export default function Flashcard() {
             <div className="text-2xl mb-2">
               <PinyinDisplay pinyin={word.pinyin} />
             </div>
-            <div className="text-xl font-semibold text-gray-700 mb-4">
+            <div className="text-xl font-semibold text-gray-700 mb-2">
               {word.english}
             </div>
             <ExampleSentences examples={word.example_sentences} />
+            <StrokeOrderDisplay hanzi={word.hanzi} />
           </div>
         </div>
       </div>
