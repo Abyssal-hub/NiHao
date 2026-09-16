@@ -1,0 +1,74 @@
+{
+  "measure_words": [
+    {
+      "hanzi": "个",
+      "pinyin": "gè",
+      "usage": "General measure word for people and objects",
+      "category": "general",
+      "examples": ["一个杯子 yí gè bēizi (one cup)", "五个学生 wǔ gè xuésheng (five students)", "三个人 sān gè rén (three people)"]
+    },
+    {
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "usage": "Measure word for family members",
+      "category": "people",
+      "examples": ["三口人 sān kǒu rén (three family members)", "五口人 wǔ kǒu rén (five people)", "我家有四口人。Wǒ jiā yǒu sì kǒu rén. (My family has four people.)"]
+    },
+    {
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "usage": "Measure word for age",
+      "category": "age",
+      "examples": ["三岁 sān suì (three years old)", "二十岁 èrshí suì (twenty years old)", "你几岁了？Nǐ jǐ suì le? (How old are you?)"]
+    },
+    {
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "usage": "Colloquial measure word for money (yuan)",
+      "category": "money",
+      "examples": ["十八块 shíbā kuài (18 yuan)", "五块 wǔ kuài (5 yuan)", "这个杯子多少钱？Zhège bēizi duōshao qián? (How much is this cup? — 十八块。Shíbā kuài.)"]
+    },
+    {
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "usage": "Measure word for cups/glasses of liquid",
+      "category": "container",
+      "examples": ["一杯茶 yì bēi chá (a cup of tea)", "一杯水 yì bēi shuǐ (a glass of water)", "我想喝一杯茶。Wǒ xiǎng hē yì bēi chá. (I want to drink a cup of tea.)"]
+    },
+    {
+      "hanzi": "本",
+      "pinyin": "běn",
+      "usage": "Measure word for books and bound items",
+      "category": "objects",
+      "examples": ["一本书 yì běn shū (a book)", "两本杂志 liǎng běn zázhì (two magazines)"]
+    },
+    {
+      "hanzi": "只",
+      "pinyin": "zhǐ",
+      "usage": "Measure word for animals and some objects",
+      "category": "animals",
+      "examples": ["一只猫 yì zhī māo (a cat)", "一只狗 yì zhī gǒu (a dog)"]
+    },
+    {
+      "hanzi": "张",
+      "pinyin": "zhāng",
+      "usage": "Measure word for flat objects (paper, tables, tickets)",
+      "category": "flat objects",
+      "examples": ["一张纸 yì zhāng zhǐ (a piece of paper)", "一张票 yì zhāng piào (a ticket)"]
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "usage": "Measure word for clothing, items, affairs",
+      "category": "clothing/items",
+      "examples": ["一件衣服 yì jiàn yīfu (a piece of clothing)", "两件事 liǎng jiàn shì (two matters)"]
+    },
+    {
+      "hanzi": "把",
+      "pinyin": "bǎ",
+      "usage": "Measure word for objects with handles, chairs",
+      "category": "objects with handles",
+      "examples": ["一把椅子 yì bǎ yǐzi (a chair)", "一把伞 yì bǎ sǎn (an umbrella)"]
+    }
+  ]
+}

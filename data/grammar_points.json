@@ -1,0 +1,151 @@
+{
+  "grammar_points": [
+    {
+      "lesson": 1,
+      "pattern": "Sub + 很 + Adj",
+      "title": "很 as degree adverb",
+      "explanation": "Used to describe the degree of an adjective. 很 means 'very' but is often used as a linker between subject and adjective.",
+      "examples": [
+        "我很好。Wǒ hěn hǎo. (I'm very good.)",
+        "她很好。Tā hěn hǎo. (She is very good.)"
+      ]
+    },
+    {
+      "lesson": 1,
+      "pattern": "...呢？",
+      "title": "Question particle 呢",
+      "explanation": "Used to ask 'and you?' or 'how about...?' after a statement. It bounces the question back to the other person.",
+      "examples": [
+        "我很好，你呢？Wǒ hěn hǎo, nǐ ne? (I'm fine, and you?)"
+      ]
+    },
+    {
+      "lesson": 2,
+      "pattern": "Sub + 不 + Verb/Adj",
+      "title": "Negation with 不",
+      "explanation": "Place 不 before a verb or adjective to negate it. Note tone sandhi: 不 (bù) changes to bú before a 4th tone syllable.",
+      "examples": [
+        "不好。Bù hǎo. (Not good.)",
+        "不客气。Bú kèqi. (You're welcome.)",
+        "不谢。Bú xiè. (Don't mention it.)"
+      ]
+    },
+    {
+      "lesson": 3,
+      "pattern": "Sub + 是 + Noun",
+      "title": "Copula 是",
+      "explanation": "是 connects a subject to a noun predicate, equivalent to 'am/is/are' in English.",
+      "examples": [
+        "我是学生。Wǒ shì xuésheng. (I am a student.)",
+        "他是中国人。Tā shì Zhōngguó rén. (He is Chinese.)"
+      ]
+    },
+    {
+      "lesson": 3,
+      "pattern": "Sub + 也 + Verb",
+      "title": "也 (also/too)",
+      "explanation": "也 is placed before the verb to mean 'also' or 'too'.",
+      "examples": [
+        "我也是学生。Wǒ yě shì xuésheng. (I am also a student.)"
+      ]
+    },
+    {
+      "lesson": 5,
+      "pattern": "Sub + 有 + Object",
+      "title": "有 (to have)",
+      "explanation": "有 expresses possession or existence. For negation, use 没有 (méiyǒu).",
+      "examples": [
+        "我有中国朋友。Wǒ yǒu Zhōngguó péngyou. (I have Chinese friends.)",
+        "我家有五口人。Wǒ jiā yǒu wǔ kǒu rén. (My family has five people.)"
+      ]
+    },
+    {
+      "lesson": 5,
+      "pattern": "Sub + 几 + MeasureWord + Noun",
+      "title": "几 questions (how many)",
+      "explanation": "几 asks about small quantities (typically under 10). The measure word must be included.",
+      "examples": [
+        "你家有几口人？Nǐ jiā yǒu jǐ kǒu rén? (How many people are in your family?)",
+        "你女儿几岁了？Nǐ nǚ'ér jǐ suì le? (How old is your daughter?)"
+      ]
+    },
+    {
+      "lesson": 5,
+      "pattern": "Sub + 多 + Adj",
+      "title": "多 questions (how)",
+      "explanation": "多 asks 'how' before adjectives like 大 (old) and 高 (tall).",
+      "examples": [
+        "你多大了？Nǐ duō dà le? (How old are you?)"
+      ]
+    },
+    {
+      "lesson": 6,
+      "pattern": "Sub + 会 + Verb",
+      "title": "会 (can/be able to)",
+      "explanation": "会 expresses learned skills or abilities (as opposed to 能 which expresses physical ability or permission).",
+      "examples": [
+        "我会说汉语。Wǒ huì shuō Hànyǔ. (I can speak Chinese.)",
+        "你会写汉字吗？Nǐ huì xiě Hànzì ma? (Can you write Chinese characters?)"
+      ]
+    },
+    {
+      "lesson": 6,
+      "pattern": "Sub + 怎么 + Verb",
+      "title": "怎么 (how)",
+      "explanation": "怎么 asks how something is done or how to do something.",
+      "examples": [
+        "这个字怎么念？Zhège zì zěnme niàn? (How do you pronounce this character?)"
+      ]
+    },
+    {
+      "lesson": 7,
+      "pattern": "今天/昨天/明天 + 月 + 号/日",
+      "title": "Date expressions",
+      "explanation": "Chinese dates follow the pattern: time-word + month + date-number. 号 (hào) or 日 (rì) can be used for the day.",
+      "examples": [
+        "今天是九月十五号。Jīntiān shì jiǔ yuè shíwǔ hào. (Today is September 15th.)",
+        "明天是星期一。Míngtiān shì xīngqī yī. (Tomorrow is Monday.)"
+      ]
+    },
+    {
+      "lesson": 7,
+      "pattern": "Sub + 去 + Place",
+      "title": "去 (to go)",
+      "explanation": "去 expresses going to a place. The destination follows 去 directly.",
+      "examples": [
+        "你去哪儿？Nǐ qù nǎr? (Where are you going?)",
+        "我去学校。Wǒ qù xuéxiào. (I'm going to school.)"
+      ]
+    },
+    {
+      "lesson": 8,
+      "pattern": "Sub + 想 + Verb",
+      "title": "想 (to want/to think)",
+      "explanation": "想 expresses desire or intention to do something. It's softer than 要 (yào).",
+      "examples": [
+        "我想喝茶。Wǒ xiǎng hē chá. (I want to drink tea.)",
+        "我想买杯子。Wǒ xiǎng mǎi bēizi. (I want to buy a cup.)"
+      ]
+    },
+    {
+      "lesson": 8,
+      "pattern": "这/那 + MeasureWord + Noun",
+      "title": "Demonstratives 这/那",
+      "explanation": "这 (zhè) = this, 那 (nà) = that. A measure word must be used between the demonstrative and the noun.",
+      "examples": [
+        "这个杯子多少钱？Zhège bēizi duōshao qián? (How much is this cup?)",
+        "那个杯子十八块。Nàge bēizi shíbā kuài. (That cup is 18 yuan.)"
+      ]
+    },
+    {
+      "lesson": 9,
+      "pattern": "Sub + 在 + Place + Verb",
+      "title": "在 (at/in/on) location",
+      "explanation": "在 indicates location where an action takes place. It can also be used with position words like 上面 (above), 下面 (below), 里面 (inside).",
+      "examples": [
+        "你儿子在哪儿工作？Nǐ érzi zài nǎr gōngzuò? (Where does your son work?)",
+        "猫在椅子下面。Māo zài yǐzi xiàmiàn. (The cat is under the chair.)"
+      ]
+    }
+  ]
+}

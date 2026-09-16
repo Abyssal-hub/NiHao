@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.tex
+
+# Generated markdown intermediates
+output/*.md
+output/*_header.tex
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
