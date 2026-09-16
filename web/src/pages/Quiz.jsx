@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useQuiz } from '../hooks/useQuiz'
 import { useSpeech } from '../hooks/useSpeech'
@@ -51,127 +51,6 @@ function PinyinDisplay({ pinyin }) {
         )
       })}
     </span>
-  )
-}
-
-function StrokeOrderDisplay({ hanzi }) {
-  const [showStroke, setShowStroke] = useState(false)
-  const canvasRefs = useRef([])
-  const writersRef = useRef([])
-  const hanziWriterLoaded = useRef(false)
-
-  // Load Hanzi Writer script dynamically
-  useEffect(() => {
-    if (window.HanziWriter) {
-      hanziWriterLoaded.current = true
-      return
-    }
-    const script = document.createElement('script')
-    script.src = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js'
-    script.async = true
-    script.onload = () => {
-      hanziWriterLoaded.current = true
-    }
-    document.body.appendChild(script)
-  }, [])
-
-  // Cleanup writers when hanzi changes
-  useEffect(() => {
-    setShowStroke(false)
-    writersRef.current.forEach((w) => {
-      if (w && w.cancelAnimation) w.cancelAnimation()
-    })
-    writersRef.current = []
-    canvasRefs.current = []
-  }, [hanzi])
-
-  const toggleStroke = () => {
-    if (showStroke) {
-      // Cancel any running animations
-      writersRef.current.forEach((w) => {
-        if (w && w.cancelAnimation) w.cancelAnimation()
-      })
-      writersRef.current = []
-      setShowStroke(false)
-      return
-    }
-
-    // Small delay to ensure DOM is ready
-    setTimeout(() => {
-      if (!window.HanziWriter) {
-        console.warn('Hanzi Writer not loaded yet')
-        return
-      }
-
-      const chars = hanzi.split('')
-      writersRef.current = chars.map((char, idx) => {
-        const canvas = canvasRefs.current[idx]
-        if (!canvas) return null
-
-        try {
-          const writer = window.HanziWriter.create(canvas, char, {
-            width: 80,
-            height: 80,
-            padding: 5,
-            strokeAnimationSpeed: 1,
-            delayBetweenStrokes: 150,
-            radicalColor: '#168F16',
-            strokeColor: '#333333',
-            outlineColor: '#DDDDDD',
-            showCharacter: false,
-            showOutline: true,
-          })
-
-          // Animate the strokes
-          writer.animateCharacter()
-          return writer
-        } catch (e) {
-          console.warn(`Failed to create stroke animation for ${char}:`, e)
-          return null
-        }
-      })
-    }, 50)
-
-    setShowStroke(true)
-  }
-
-  return (
-    <div className="mt-3">
-      <button
-        onClick={toggleStroke}
-        className="text-xs text-blue-500 hover:text-blue-700 font-medium"
-      >
-        {showStroke ? '▲ Hide stroke animation' : '▼ Show stroke animation'}
-      </button>
-      {showStroke && (
-        <div className="mt-2 p-3 bg-gray-50 rounded-xl">
-          <div className="flex justify-end mb-2">
-            <button
-              onClick={() => {
-                writersRef.current.forEach((w) => {
-                  if (w && w.animateCharacter) w.animateCharacter()
-                })
-              }}
-              className="text-xs px-3 py-1 bg-blue-100 text-blue-700 rounded-full hover:bg-blue-200 transition-colors"
-            >
-              🔄 Replay
-            </button>
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {hanzi.split('').map((char, idx) => (
-              <div key={idx} className="flex flex-col items-center">
-                <div
-                  ref={(el) => (canvasRefs.current[idx] = el)}
-                  className="bg-white rounded-lg shadow-sm"
-                  style={{ width: 80, height: 80 }}
-                />
-                <span className="text-xs text-gray-400 mt-1">{char}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
   )
 }
 
@@ -403,7 +282,6 @@ export default function Quiz() {
             </div>
 
             <ExampleSentences examples={question.word.example_sentences} />
-            <StrokeOrderDisplay hanzi={question.word.hanzi} />
           </div>
         )}
       </div>
