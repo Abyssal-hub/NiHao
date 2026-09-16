@@ -340,9 +340,6 @@ export default function Quiz() {
           <div className="hanzi-display text-7xl font-bold text-gray-900 mb-2">
             {question.word.hanzi}
           </div>
-          <div className="text-xl">
-            <PinyinDisplay pinyin={question.word.pinyin} />
-          </div>
         </div>
 
         {/* Answer Options */}
@@ -378,12 +375,33 @@ export default function Quiz() {
         {/* Feedback */}
         {answered && (
           <div className={`mt-6 p-4 rounded-xl fade-in ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-2 mb-3">
               <span className="text-xl">{isCorrect ? '✅' : '❌'}</span>
               <span className={`font-semibold ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
-                {isCorrect ? 'Correct!' : `Wrong. The answer is "${question.word.english}"`}
+                {isCorrect ? 'Correct!' : 'Wrong!'}
               </span>
             </div>
+
+            {/* Word Details */}
+            <div className="bg-white rounded-xl p-4 mb-3">
+              <div className="text-center">
+                <div className="hanzi-display text-4xl font-bold text-gray-800 mb-1">
+                  {question.word.hanzi}
+                </div>
+                <div className="text-lg mb-1">
+                  <PinyinDisplay pinyin={question.word.pinyin} />
+                </div>
+                <div className="text-gray-700 font-medium mb-1">
+                  🇬🇧 {question.word.english}
+                </div>
+                {question.word.vietnamese && (
+                  <div className="text-gray-600">
+                    🇻🇳 {question.word.vietnamese}
+                  </div>
+                )}
+              </div>
+            </div>
+
             <ExampleSentences examples={question.word.example_sentences} />
             <StrokeOrderDisplay hanzi={question.word.hanzi} />
           </div>

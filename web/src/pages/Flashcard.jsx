@@ -377,9 +377,14 @@ export default function Flashcard() {
             <div className="text-2xl mb-2">
               <PinyinDisplay pinyin={word.pinyin} />
             </div>
-            <div className="text-xl font-semibold text-gray-700 mb-2">
-              {word.english}
+            <div className="text-lg font-semibold text-gray-700 mb-1">
+              🇬🇧 {word.english}
             </div>
+            {word.vietnamese && (
+              <div className="text-base text-gray-600 mb-2">
+                🇻🇳 {word.vietnamese}
+              </div>
+            )}
             <ExampleSentences examples={word.example_sentences} />
             <StrokeOrderDisplay hanzi={word.hanzi} />
           </div>

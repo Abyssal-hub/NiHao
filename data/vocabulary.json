@@ -35,7 +35,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bạn"
         },
         {
           "hanzi": "您",
@@ -51,7 +52,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bạn (kính ngữ)"
         },
         {
           "hanzi": "你们",
@@ -67,7 +69,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "các bạn"
         },
         {
           "hanzi": "好",
@@ -84,7 +87,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tốt / khỏe / được"
         },
         {
           "hanzi": "很",
@@ -101,7 +105,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "rất"
         },
         {
           "hanzi": "我",
@@ -118,7 +123,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tôi / mình"
         },
         {
           "hanzi": "呢",
@@ -134,7 +140,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "trợ từ câu hỏi (còn bạn thì?)"
         },
         {
           "hanzi": "对不起",
@@ -150,7 +157,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "xin lỗi"
         },
         {
           "hanzi": "没关系",
@@ -166,7 +174,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "không sao / không có gì"
         }
       ],
       "grammar_points": [
@@ -207,7 +216,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cảm ơn"
         },
         {
           "hanzi": "不客气",
@@ -223,7 +233,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "không cần khách sáo / không có gì"
         },
         {
           "hanzi": "再见",
@@ -239,7 +250,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tạm biệt / hẹn gặp lại"
         },
         {
           "hanzi": "请",
@@ -256,7 +268,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "xin mời / làm ơn"
         },
         {
           "hanzi": "问",
@@ -273,7 +286,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "hỏi"
         },
         {
           "hanzi": "姓",
@@ -290,7 +304,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "họ / mang họ"
         },
         {
           "hanzi": "贵姓",
@@ -306,7 +321,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "quý tính (hỏi họ kính ngữ)"
         },
         {
           "hanzi": "叫",
@@ -322,7 +338,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "gọi là / tên là"
         },
         {
           "hanzi": "什么",
@@ -338,7 +355,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cái gì"
         },
         {
           "hanzi": "名字",
@@ -354,7 +372,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tên"
         },
         {
           "hanzi": "先生",
@@ -370,7 +389,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ông / tiên sinh"
         },
         {
           "hanzi": "小姐",
@@ -386,7 +406,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cô / tiểu thư"
         },
         {
           "hanzi": "老师",
@@ -403,7 +424,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "giáo viên / thầy cô"
         },
         {
           "hanzi": "吗",
@@ -419,7 +441,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "trợ từ câu hỏi"
         },
         {
           "hanzi": "不",
@@ -436,7 +459,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "không / chẳng"
         }
       ],
       "grammar_points": [
@@ -471,7 +495,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "là / thị"
         },
         {
           "hanzi": "学生",
@@ -488,7 +513,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "học sinh / sinh viên"
         },
         {
           "hanzi": "也",
@@ -503,7 +529,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cũng"
         },
         {
           "hanzi": "人",
@@ -520,7 +547,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ngưới"
         },
         {
           "hanzi": "中国",
@@ -537,7 +565,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "Trung Quốc"
         },
         {
           "hanzi": "北京",
@@ -553,7 +582,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "Bắc Kinh"
         },
         {
           "hanzi": "美国",
@@ -569,7 +599,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "Mỹ / Hoa Kỳ"
         },
         {
           "hanzi": "朋友",
@@ -585,7 +616,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bạn bè"
         },
         {
           "hanzi": "他",
@@ -600,7 +632,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "anh ấy / cậu ấy"
         },
         {
           "hanzi": "她",
@@ -615,7 +648,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cô ấy / chị ấy"
         },
         {
           "hanzi": "哪",
@@ -631,7 +665,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nào"
         },
         {
           "hanzi": "国",
@@ -647,7 +682,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nước / quốc gia"
         }
       ],
       "grammar_points": [
@@ -689,7 +725,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhà / gia đình"
         },
         {
           "hanzi": "有",
@@ -705,7 +742,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "có"
         },
         {
           "hanzi": "口",
@@ -722,7 +760,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "miệng / lượng từ ngưới"
         },
         {
           "hanzi": "女儿",
@@ -738,7 +777,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "con gái"
         },
         {
           "hanzi": "岁",
@@ -755,7 +795,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tuổi"
         },
         {
           "hanzi": "今年",
@@ -772,7 +813,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "năm nay"
         },
         {
           "hanzi": "几",
@@ -789,7 +831,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "mấy / bao nhiêu"
         },
         {
           "hanzi": "多",
@@ -806,7 +849,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhiều / bao nhiêu"
         },
         {
           "hanzi": "大",
@@ -822,7 +866,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "to / lớn"
         },
         {
           "hanzi": "了",
@@ -839,7 +884,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "trợ từ (đã / rồi)"
         },
         {
           "hanzi": "爷爷",
@@ -855,7 +901,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ông nội"
         },
         {
           "hanzi": "奶奶",
@@ -871,7 +918,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bà nội"
         },
         {
           "hanzi": "爸爸",
@@ -887,7 +935,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bố / cha"
         },
         {
           "hanzi": "妈妈",
@@ -903,7 +952,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "mẹ"
         },
         {
           "hanzi": "哥哥",
@@ -919,7 +969,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "anh trai"
         },
         {
           "hanzi": "姐姐",
@@ -935,7 +986,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "chị gái"
         },
         {
           "hanzi": "弟弟",
@@ -951,7 +1003,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "em trai"
         },
         {
           "hanzi": "妹妹",
@@ -967,7 +1020,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "em gái"
         }
       ],
       "grammar_points": [
@@ -1018,7 +1072,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "biết (kỹ năng) / có thể"
         },
         {
           "hanzi": "说",
@@ -1035,7 +1090,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nói"
         },
         {
           "hanzi": "汉语",
@@ -1052,7 +1108,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tiếng Hán / tiếng Trung"
         },
         {
           "hanzi": "菜",
@@ -1069,7 +1126,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "món ăn / rau"
         },
         {
           "hanzi": "好吃",
@@ -1086,7 +1144,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ngon"
         },
         {
           "hanzi": "做",
@@ -1103,7 +1162,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "làm"
         },
         {
           "hanzi": "写",
@@ -1120,7 +1180,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "viết"
         },
         {
           "hanzi": "汉字",
@@ -1137,7 +1198,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "chữ Hán"
         },
         {
           "hanzi": "字",
@@ -1154,7 +1216,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "chữ / ký tự"
         },
         {
           "hanzi": "读",
@@ -1171,7 +1234,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "đọc"
         },
         {
           "hanzi": "怎么",
@@ -1188,7 +1252,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "thế nào / làm sao"
         },
         {
           "hanzi": "英语",
@@ -1205,7 +1270,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tiếng Anh"
         },
         {
           "hanzi": "法语",
@@ -1221,7 +1287,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tiếng Pháp"
         },
         {
           "hanzi": "日语",
@@ -1237,7 +1304,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tiếng Nhật"
         }
       ],
       "grammar_points": [
@@ -1279,7 +1347,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "hôm nay"
         },
         {
           "hanzi": "昨天",
@@ -1295,7 +1364,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "hôm qua"
         },
         {
           "hanzi": "明天",
@@ -1312,7 +1382,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ngày mai"
         },
         {
           "hanzi": "月",
@@ -1329,7 +1400,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tháng / mặt trăng"
         },
         {
           "hanzi": "号",
@@ -1346,7 +1418,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ngày / số"
         },
         {
           "hanzi": "日",
@@ -1363,7 +1436,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "mặt trờ / ngày"
         },
         {
           "hanzi": "星期",
@@ -1380,7 +1454,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tuần / thứ"
         },
         {
           "hanzi": "去",
@@ -1397,7 +1472,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "đi"
         },
         {
           "hanzi": "看",
@@ -1414,7 +1490,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhìn / xem / đọc"
         },
         {
           "hanzi": "书",
@@ -1431,7 +1508,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "sách"
         },
         {
           "hanzi": "学校",
@@ -1448,7 +1526,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "trường học"
         },
         {
           "hanzi": "生日",
@@ -1465,7 +1544,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "sinh nhật"
         }
       ],
       "grammar_points": [
@@ -1508,7 +1588,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "muốn / nghĩ"
         },
         {
           "hanzi": "吃",
@@ -1526,7 +1607,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ăn"
         },
         {
           "hanzi": "喝",
@@ -1544,7 +1626,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "uống"
         },
         {
           "hanzi": "茶",
@@ -1562,7 +1645,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "trà"
         },
         {
           "hanzi": "米饭",
@@ -1579,7 +1663,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cơm"
         },
         {
           "hanzi": "下午",
@@ -1596,7 +1681,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "buổi chiều"
         },
         {
           "hanzi": "上午",
@@ -1612,7 +1698,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "buổi sáng"
         },
         {
           "hanzi": "中午",
@@ -1628,7 +1715,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "buổi trưa"
         },
         {
           "hanzi": "晚上",
@@ -1644,7 +1732,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "buổi tối"
         },
         {
           "hanzi": "商店",
@@ -1661,7 +1750,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cửa hàng / tiệm"
         },
         {
           "hanzi": "买",
@@ -1679,7 +1769,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "mua"
         },
         {
           "hanzi": "杯子",
@@ -1697,7 +1788,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cái ly / cái cốc"
         },
         {
           "hanzi": "这",
@@ -1714,7 +1806,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cái này / đây"
         },
         {
           "hanzi": "那",
@@ -1731,7 +1824,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cái kia / đó"
         },
         {
           "hanzi": "个",
@@ -1747,7 +1841,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "lượng từ chung"
         },
         {
           "hanzi": "多少",
@@ -1764,7 +1859,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bao nhiêu"
         },
         {
           "hanzi": "钱",
@@ -1781,7 +1877,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tiền"
         },
         {
           "hanzi": "块",
@@ -1799,7 +1896,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "đồng / tệ (tiền)"
         }
       ],
       "grammar_points": [
@@ -1842,7 +1940,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ở / tại"
         },
         {
           "hanzi": "小",
@@ -1859,7 +1958,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhỏ / bé"
         },
         {
           "hanzi": "椅子",
@@ -1877,7 +1977,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "cái ghế"
         },
         {
           "hanzi": "工作",
@@ -1895,7 +1996,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "công việc / làm việc"
         },
         {
           "hanzi": "儿子",
@@ -1912,7 +2014,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "con trai"
         },
         {
           "hanzi": "医生",
@@ -1929,7 +2032,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bác sĩ"
         },
         {
           "hanzi": "医院",
@@ -1946,7 +2050,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bệnh viện"
         },
         {
           "hanzi": "猫",
@@ -1963,7 +2068,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "con mèo"
         },
         {
           "hanzi": "狗",
@@ -1980,7 +2086,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "con chó"
         },
         {
           "hanzi": "那儿",
@@ -1997,7 +2104,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "chỗ đó / ở đó"
         },
         {
           "hanzi": "下面",
@@ -2014,7 +2122,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "phía dưới"
         },
         {
           "hanzi": "哪儿",
@@ -2032,7 +2141,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ở đâu"
         },
         {
           "hanzi": "这儿",
@@ -2049,7 +2159,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "chỗ này / ở đây"
         },
         {
           "hanzi": "售货员",
@@ -2066,7 +2177,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhân viên bán hàng"
         },
         {
           "hanzi": "银行职员",
@@ -2083,7 +2195,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nhân viên ngân hàng"
         }
       ],
       "grammar_points": [
@@ -2117,7 +2230,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "ngủ"
         },
         {
           "hanzi": "休息",
@@ -2134,7 +2248,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "nghỉ ngơi"
         },
         {
           "hanzi": "足球",
@@ -2151,7 +2266,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bóng đá"
         },
         {
           "hanzi": "篮球",
@@ -2168,7 +2284,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "bóng rổ"
         },
         {
           "hanzi": "洗澡",
@@ -2185,7 +2302,8 @@
           "leitner_box": 1,
           "stroke_order": null,
           "audio_url": null,
-          "hsk_level": 1
+          "hsk_level": 1,
+          "vietnamese": "tắm"
         }
       ]
     }
