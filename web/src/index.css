@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Chinese text rendering */
+.hanzi-display {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* Flashcard 3D flip */
+.flashcard-container {
+  perspective: 1000px;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Stroke order canvas */
+.stroke-canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Tone colors for pinyin */
+.tone-1 { color: #b41e1e; }
+.tone-2 { color: #c86414; }
+.tone-3 { color: #1e821e; }
+.tone-4 { color: #1e3cb4; }
+.tone-0 { color: #646464; }
+
+/* Smooth transitions */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Correct/Wrong feedback */
+.feedback-correct {
+  background-color: #f0fdf4;
+  border-color: #22c55e;
+}
+
+.feedback-wrong {
+  background-color: #fef2f2;
+  border-color: #ef4444;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .hanzi-display {
+    font-size: 4rem !important;
+  }
+}

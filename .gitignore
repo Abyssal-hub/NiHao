@@ -25,3 +25,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Node.js
+node_modules/
+web/node_modules/
+web/dist/
+
+# Vite
+web/dist/
+web/.vite/
