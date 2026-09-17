@@ -30,7 +30,8 @@
           ],
           "tags": [
             "pronoun",
-            "basic"
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -47,7 +48,8 @@
           ],
           "tags": [
             "pronoun",
-            "polite"
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -64,7 +66,8 @@
           ],
           "tags": [
             "pronoun",
-            "plural"
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -82,7 +85,9 @@
           ],
           "tags": [
             "adjective",
-            "basic"
+            "daily_life",
+            "basic",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -100,7 +105,8 @@
           ],
           "tags": [
             "adverb",
-            "degree"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -118,7 +124,8 @@
           ],
           "tags": [
             "pronoun",
-            "basic"
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -135,7 +142,8 @@
           ],
           "tags": [
             "particle",
-            "question"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -152,7 +160,8 @@
           ],
           "tags": [
             "expression",
-            "apology"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -169,7 +178,8 @@
           ],
           "tags": [
             "expression",
-            "response"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -211,7 +221,8 @@
           ],
           "tags": [
             "expression",
-            "gratitude"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -228,7 +239,8 @@
           ],
           "tags": [
             "expression",
-            "response"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -245,7 +257,8 @@
           ],
           "tags": [
             "expression",
-            "farewell"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -263,7 +276,8 @@
           ],
           "tags": [
             "verb",
-            "polite"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -281,7 +295,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -297,9 +312,11 @@
             "你姓什么？Nǐ xìng shénme? (What's your surname?)"
           ],
           "tags": [
-            "noun",
             "verb",
-            "identity"
+            "noun",
+            "people",
+            "identity",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -316,7 +333,9 @@
           ],
           "tags": [
             "noun",
-            "polite"
+            "people",
+            "identity",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -333,7 +352,9 @@
           ],
           "tags": [
             "verb",
-            "identity"
+            "people",
+            "identity",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -349,8 +370,9 @@
             "你叫什么？Nǐ jiào shénme? (What is your name?)"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -367,7 +389,9 @@
           ],
           "tags": [
             "noun",
-            "identity"
+            "people",
+            "identity",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -384,7 +408,9 @@
           ],
           "tags": [
             "noun",
-            "title"
+            "people",
+            "title",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -401,7 +427,9 @@
           ],
           "tags": [
             "noun",
-            "title"
+            "people",
+            "title",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -419,7 +447,9 @@
           ],
           "tags": [
             "noun",
-            "profession"
+            "profession",
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -436,7 +466,8 @@
           ],
           "tags": [
             "particle",
-            "question"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -454,7 +485,8 @@
           ],
           "tags": [
             "adverb",
-            "negation"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -490,7 +522,8 @@
           ],
           "tags": [
             "verb",
-            "copula"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -508,7 +541,9 @@
           ],
           "tags": [
             "noun",
-            "profession"
+            "profession",
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -524,7 +559,9 @@
             "我也是学生。Wǒ yě shì xuésheng. (I am also a student.)"
           ],
           "tags": [
-            "adverb"
+            "adverb",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -542,7 +579,8 @@
           ],
           "tags": [
             "noun",
-            "basic"
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -560,7 +598,9 @@
           ],
           "tags": [
             "noun",
-            "country"
+            "country",
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -577,7 +617,9 @@
           ],
           "tags": [
             "noun",
-            "city"
+            "country",
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -594,7 +636,9 @@
           ],
           "tags": [
             "noun",
-            "country"
+            "country",
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -611,7 +655,9 @@
           ],
           "tags": [
             "noun",
-            "relationship"
+            "people",
+            "relationship",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -627,7 +673,9 @@
             "他是老师。Tā shì lǎoshī. (He is a teacher.)"
           ],
           "tags": [
-            "pronoun"
+            "pronoun",
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -643,7 +691,9 @@
             "她是我的老师。Tā shì wǒ de lǎoshī. (She is my teacher.)"
           ],
           "tags": [
-            "pronoun"
+            "pronoun",
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -659,8 +709,9 @@
             "你是哪国人？Nǐ shì nǎ guó rén? (Which country are you from?)"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -677,7 +728,9 @@
             "美国 Měiguó (USA)"
           ],
           "tags": [
-            "noun"
+            "noun",
+            "country",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -720,7 +773,8 @@
           ],
           "tags": [
             "particle",
-            "grammar"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -736,8 +790,10 @@
             "她是谁？Tā shì shuí? (Who is she?)"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "people",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -754,8 +810,9 @@
           ],
           "tags": [
             "noun",
-            "person",
-            "school"
+            "people",
+            "school",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -798,7 +855,9 @@
           ],
           "tags": [
             "noun",
-            "place"
+            "place",
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -815,7 +874,9 @@
             "我家有五口人。Wǒ jiā yǒu wǔ kǒu rén."
           ],
           "tags": [
-            "verb"
+            "verb",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -832,8 +893,11 @@
             "三口人 sān kǒu rén (three people)"
           ],
           "tags": [
+            "measure_word",
             "noun",
-            "measure_word"
+            "body",
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -850,7 +914,9 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "people",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -867,8 +933,9 @@
             "她今年二十岁。Tā jīnnián èrshí suì. (She is 20 this year.)"
           ],
           "tags": [
-            "noun",
-            "measure_word"
+            "measure_word",
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -886,7 +953,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -903,8 +971,9 @@
             "你女儿几岁了？Nǐ nǚ'ér jǐ suì le? (How old is your daughter?)"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -922,7 +991,9 @@
           ],
           "tags": [
             "adjective",
-            "pronoun"
+            "adverb",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -939,7 +1010,9 @@
             "我的家很大。Wǒ de jiā hěn dà. (My home is very big.)"
           ],
           "tags": [
-            "adjective"
+            "adjective",
+            "basic",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -957,7 +1030,8 @@
           ],
           "tags": [
             "particle",
-            "aspect"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -974,7 +1048,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -991,7 +1066,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1008,7 +1084,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1025,7 +1102,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1042,7 +1120,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1059,7 +1138,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1076,7 +1156,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1093,7 +1174,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1145,7 +1227,10 @@
           ],
           "tags": [
             "verb",
-            "modal"
+            "modal",
+            "language",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1163,7 +1248,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1181,7 +1267,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1199,7 +1286,8 @@
           ],
           "tags": [
             "noun",
-            "food"
+            "food",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1217,7 +1305,8 @@
           ],
           "tags": [
             "adjective",
-            "food"
+            "food",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1235,7 +1324,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1253,7 +1343,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1271,7 +1362,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1289,7 +1381,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1307,7 +1400,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1324,8 +1418,9 @@
             "你怎么去？Nǐ zěnme qù? (How do you go?)"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1343,7 +1438,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1360,7 +1456,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1377,7 +1474,8 @@
           ],
           "tags": [
             "noun",
-            "language"
+            "language",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1420,7 +1518,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1437,7 +1536,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1455,7 +1555,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1473,7 +1574,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1491,7 +1593,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1509,7 +1612,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1527,7 +1631,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1545,7 +1650,8 @@
           ],
           "tags": [
             "verb",
-            "motion"
+            "travel",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1563,7 +1669,8 @@
           ],
           "tags": [
             "verb",
-            "action"
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1581,7 +1688,9 @@
           ],
           "tags": [
             "noun",
-            "object"
+            "language",
+            "object",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1599,7 +1708,9 @@
           ],
           "tags": [
             "noun",
-            "place"
+            "place",
+            "school",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1617,7 +1728,8 @@
           "tags": [
             "noun",
             "time",
-            "event"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1661,7 +1773,9 @@
           ],
           "tags": [
             "verb",
-            "modal"
+            "modal",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1679,8 +1793,8 @@
           ],
           "tags": [
             "verb",
-            "action",
-            "food"
+            "food",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1698,8 +1812,8 @@
           ],
           "tags": [
             "verb",
-            "action",
-            "food"
+            "food",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1718,7 +1832,7 @@
           "tags": [
             "noun",
             "food",
-            "drink"
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1736,7 +1850,8 @@
           ],
           "tags": [
             "noun",
-            "food"
+            "food",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1754,7 +1869,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1771,7 +1887,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1788,7 +1905,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1805,7 +1923,8 @@
           ],
           "tags": [
             "noun",
-            "time"
+            "time",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1823,7 +1942,9 @@
           ],
           "tags": [
             "noun",
-            "place"
+            "place",
+            "money",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1841,8 +1962,8 @@
           ],
           "tags": [
             "verb",
-            "action",
-            "shopping"
+            "money",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1860,8 +1981,9 @@
           ],
           "tags": [
             "noun",
+            "food",
             "object",
-            "shopping"
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1879,7 +2001,8 @@
           ],
           "tags": [
             "pronoun",
-            "demonstrative"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1897,7 +2020,8 @@
           ],
           "tags": [
             "pronoun",
-            "demonstrative"
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1914,7 +2038,9 @@
             "五个学生 wǔ gè xuésheng (five students)"
           ],
           "tags": [
-            "measure_word"
+            "measure_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1931,8 +2057,9 @@
             "你们学校有多少学生？Nǐmen xuéxiào yǒu duōshao xuésheng?"
           ],
           "tags": [
-            "pronoun",
-            "question"
+            "question_word",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1950,7 +2077,8 @@
           ],
           "tags": [
             "noun",
-            "shopping"
+            "money",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -1967,9 +2095,9 @@
             "那个杯子十八块。Nàge bēizi shíbā kuài."
           ],
           "tags": [
-            "noun",
             "measure_word",
-            "shopping"
+            "money",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2012,8 +2140,11 @@
             "我在学校工作。Wǒ zài xuéxiào gōngzuò. (I work at school.)"
           ],
           "tags": [
+            "verb",
             "preposition",
-            "location"
+            "grammar",
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2031,7 +2162,8 @@
           ],
           "tags": [
             "adjective",
-            "size"
+            "basic",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2050,7 +2182,8 @@
           "tags": [
             "noun",
             "object",
-            "furniture"
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2067,9 +2200,11 @@
             "我妈妈不工作。Wǒ māma bù gōngzuò. (My mother doesn't work.)"
           ],
           "tags": [
-            "noun",
             "verb",
-            "profession"
+            "noun",
+            "profession",
+            "daily_life",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2087,7 +2222,8 @@
           ],
           "tags": [
             "noun",
-            "family"
+            "family",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2105,7 +2241,8 @@
           ],
           "tags": [
             "noun",
-            "profession"
+            "profession",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2123,7 +2260,8 @@
           ],
           "tags": [
             "noun",
-            "place"
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2141,7 +2279,8 @@
           ],
           "tags": [
             "noun",
-            "animal"
+            "animal",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2159,7 +2298,8 @@
           ],
           "tags": [
             "noun",
-            "animal"
+            "animal",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2177,7 +2317,8 @@
           ],
           "tags": [
             "pronoun",
-            "location"
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2195,7 +2336,8 @@
           ],
           "tags": [
             "noun",
-            "location"
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2212,9 +2354,10 @@
             "小猫在哪儿？Xiǎo māo zài nǎr? (Where is the cat?)"
           ],
           "tags": [
-            "pronoun",
-            "question",
-            "location"
+            "question_word",
+            "place",
+            "grammar",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2232,7 +2375,8 @@
           ],
           "tags": [
             "pronoun",
-            "location"
+            "place",
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2250,7 +2394,7 @@
           "tags": [
             "noun",
             "profession",
-            "supplementary"
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2268,7 +2412,7 @@
           "tags": [
             "noun",
             "profession",
-            "supplementary"
+            "core"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2303,7 +2447,8 @@
           ],
           "tags": [
             "verb",
-            "daily activity"
+            "daily_life",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2321,7 +2466,8 @@
           ],
           "tags": [
             "verb",
-            "daily activity"
+            "daily_life",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2339,7 +2485,8 @@
           ],
           "tags": [
             "noun",
-            "sports"
+            "sport",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2357,7 +2504,8 @@
           ],
           "tags": [
             "noun",
-            "sports"
+            "sport",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2375,7 +2523,8 @@
           ],
           "tags": [
             "verb",
-            "daily activity"
+            "daily_life",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2390,8 +2539,9 @@
           "vietnamese": "kiến thức",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "language",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2405,8 +2555,9 @@
           "vietnamese": "đầu bếp",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "profession",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2420,8 +2571,9 @@
           "vietnamese": "lên xe",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "verb",
+            "travel",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2435,8 +2587,9 @@
           "vietnamese": "quen biết / nhận ra",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "verb",
+            "people",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2450,8 +2603,9 @@
           "vietnamese": "kiến thức phổ thông",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "language",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2465,8 +2619,9 @@
           "vietnamese": "sự thật",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "language",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2480,8 +2635,9 @@
           "vietnamese": "siêu nhân",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "people",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2495,8 +2651,8 @@
           "vietnamese": "cháy / đốt cháy",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "verb",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2510,8 +2666,9 @@
           "vietnamese": "náo nhiệt / đông vui",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "adjective",
+            "place",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2525,8 +2682,10 @@
           "vietnamese": "đi công tác",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "verb",
+            "travel",
+            "profession",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2540,8 +2699,10 @@
           "vietnamese": "Vạn Lý Trường Thành",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "place",
+            "country",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2555,8 +2716,9 @@
           "vietnamese": "phẫu thuật",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "body",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2570,8 +2732,10 @@
           "vietnamese": "trung tâm thương mại",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "place",
+            "money",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2585,8 +2749,10 @@
           "vietnamese": "siêu thị",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "noun",
+            "place",
+            "money",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
@@ -2600,8 +2766,9 @@
           "vietnamese": "nạp tiền / nạp thẻ",
           "example_sentences": [],
           "tags": [
-            "supplementary",
-            "pronunciation"
+            "verb",
+            "money",
+            "supplementary"
           ],
           "leitner_box": 1,
           "stroke_order": null,
