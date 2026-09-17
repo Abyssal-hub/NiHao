@@ -3,7 +3,7 @@
     "course": "HSK1 Standard Course",
     "total_lessons": 9,
     "format_version": "2.0",
-    "last_updated": "2026-09-15",
+    "last_updated": "2026-09-17",
     "fields": [
       "hanzi",
       "pinyin",
@@ -702,6 +702,84 @@
           "explanation": "也 is placed before the verb to mean 'also' or 'too'.",
           "examples": [
             "我也是学生。Wǒ yě shì xuésheng. (I am also a student.)"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "title": "她是我的汉语老师 (She is my Chinese teacher)",
+      "words": [
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "english": "possessive particle (of/'s)",
+          "vietnamese": "củạ (trợ từ sở hữu)",
+          "example_sentences": [
+            "她是我的汉语老师。Tā shì wǒ de Hànyǔ lǎoshī. (She is my Chinese teacher.)"
+          ],
+          "tags": [
+            "particle",
+            "grammar"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "谁",
+          "pinyin": "shuí",
+          "english": "who",
+          "vietnamese": "ai",
+          "example_sentences": [
+            "她是谁？Tā shì shuí? (Who is she?)"
+          ],
+          "tags": [
+            "pronoun",
+            "question"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "同学",
+          "pinyin": "tóngxué",
+          "english": "classmate / schoolmate",
+          "vietnamese": "bạn học / bạn cùng lớp",
+          "example_sentences": [
+            "他是我的同学。Tā shì wǒ de tóngxué. (He is my classmate.)"
+          ],
+          "tags": [
+            "noun",
+            "person",
+            "school"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        }
+      ],
+      "grammar_points": [
+        {
+          "pattern": "Sub + 是 + Sub + 的 + Noun",
+          "title": "Possessive with 的",
+          "explanation": "的 connects a possessor to the thing possessed, equivalent to 'of' or apostrophe-s in English.",
+          "examples": [
+            "她是我的老师。Tā shì wǒ de lǎoshī. (She is my teacher.)",
+            "他是我的朋友。Tā shì wǒ de péngyou. (He is my friend.)"
+          ]
+        },
+        {
+          "pattern": "Sub + 是 + 哪国 + 人",
+          "title": "Asking nationality with 哪国",
+          "explanation": "哪国 means 'which country'. Use it to ask about someone's nationality.",
+          "examples": [
+            "你是哪国人？Nǐ shì nǎ guó rén? (Which country are you from?)",
+            "我是越南人。Wǒ shì Yuènán rén. (I am Vietnamese.)"
           ]
         }
       ]
