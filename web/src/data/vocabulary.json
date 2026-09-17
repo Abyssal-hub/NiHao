@@ -2291,7 +2291,7 @@
     },
     {
       "lesson": "appendix",
-      "title": "附录：补充词汇 (Appendix: Supplementary Vocabulary)",
+      "title": "附录：补充词汇 (Appendix: Supplementary Vocabulary & Pronunciation)",
       "words": [
         {
           "hanzi": "睡觉",
@@ -2382,6 +2382,231 @@
           "audio_url": null,
           "hsk_level": 1,
           "vietnamese": "tắm"
+        },
+        {
+          "hanzi": "知识",
+          "pinyin": "zhīshi",
+          "english": "knowledge",
+          "vietnamese": "kiến thức",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "厨师",
+          "pinyin": "chúshī",
+          "english": "chef / cook",
+          "vietnamese": "đầu bếp",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "上车",
+          "pinyin": "shàngchē",
+          "english": "to get on (a vehicle)",
+          "vietnamese": "lên xe",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "english": "to know (someone) / to recognize",
+          "vietnamese": "quen biết / nhận ra",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "常识",
+          "pinyin": "chángshí",
+          "english": "common sense / general knowledge",
+          "vietnamese": "kiến thức phổ thông",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "事实",
+          "pinyin": "shìshí",
+          "english": "fact",
+          "vietnamese": "sự thật",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "超人",
+          "pinyin": "chāorén",
+          "english": "superman / superhuman",
+          "vietnamese": "siêu nhân",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "燃烧",
+          "pinyin": "ránshāo",
+          "english": "to burn / combustion",
+          "vietnamese": "cháy / đốt cháy",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "热闹",
+          "pinyin": "rènào",
+          "english": "lively / bustling",
+          "vietnamese": "náo nhiệt / đông vui",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "出差",
+          "pinyin": "chūchāi",
+          "english": "to go on a business trip",
+          "vietnamese": "đi công tác",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "长城",
+          "pinyin": "Chángchéng",
+          "english": "the Great Wall",
+          "vietnamese": "Vạn Lý Trường Thành",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "手术",
+          "pinyin": "shǒushù",
+          "english": "surgery / operation",
+          "vietnamese": "phẫu thuật",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "商场",
+          "pinyin": "shāngchǎng",
+          "english": "shopping mall / marketplace",
+          "vietnamese": "trung tâm thương mại",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "超市",
+          "pinyin": "chāoshì",
+          "english": "supermarket",
+          "vietnamese": "siêu thị",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "充值",
+          "pinyin": "chōngzhí",
+          "english": "to recharge / top up",
+          "vietnamese": "nạp tiền / nạp thẻ",
+          "example_sentences": [],
+          "tags": [
+            "supplementary",
+            "pronunciation"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
         }
       ]
     }
