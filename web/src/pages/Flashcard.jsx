@@ -3,11 +3,20 @@ import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useFlashcard } from '../hooks/useFlashcard'
 import { useSpeech } from '../hooks/useSpeech'
 
-function AudioButton({ text, size = 'md' }) {
+function AudioButton({ text, size = 'md', autoPlay = false }) {
   const { speak, speaking, supported } = useSpeech()
+
+  // Auto-play when word changes
+  useEffect(() => {
+    if (autoPlay && supported && text) {
+      const timer = setTimeout(() => speak(text), 300)
+      return () => clearTimeout(timer)
+    }
+  }, [text, autoPlay, supported, speak])
+
   if (!supported) return null
 
-  const sizeClass = size === 'lg' ? 'p-3 text-xl' : 'p-2 text-base'
+  const sizeClass = size === 'lg' ? 'p-4 text-2xl' : 'p-2 text-base'
 
   return (
     <button
@@ -15,7 +24,7 @@ function AudioButton({ text, size = 'md' }) {
         e.stopPropagation()
         speak(text)
       }}
-      className={`${sizeClass} rounded-full bg-gray-100 hover:bg-gray-200 transition-colors ${speaking ? 'animate-pulse bg-red-100' : ''}`}
+      className={`${sizeClass} rounded-full bg-blue-50 hover:bg-blue-100 text-blue-600 transition-colors ${speaking ? 'animate-pulse bg-blue-200' : ''}`}
       title="Listen to pronunciation"
     >
       🔊
@@ -240,7 +249,6 @@ export default function Flashcard() {
           {' | '}
           Forgot: <span className="font-semibold text-red-600">{wrongWords.length}</span>
         </div>
-        <AudioButton text={word.hanzi} />
       </div>
 
       {/* Flashcard */}
@@ -254,16 +262,22 @@ export default function Flashcard() {
         <div className={`flashcard-inner ${flipped ? 'flipped' : ''}`}>
           {/* Front */}
           <div className="flashcard-front bg-white rounded-2xl shadow-sm border border-gray-200 flex flex-col items-center justify-center p-6">
-            <div className="hanzi-display text-8xl font-bold text-gray-900 mb-4">
-              {word.hanzi}
+            <div className="flex items-center gap-4 mb-4">
+              <div className="hanzi-display text-8xl font-bold text-gray-900">
+                {word.hanzi}
+              </div>
+              <AudioButton text={word.hanzi} size="lg" autoPlay={true} />
             </div>
             <p className="text-gray-400 text-sm">Tap to reveal answer</p>
           </div>
 
           {/* Back */}
           <div className="flashcard-back bg-white rounded-2xl shadow-sm border border-gray-200 flex flex-col items-center justify-center p-6 overflow-y-auto">
-            <div className="hanzi-display text-5xl font-bold text-gray-900 mb-3">
-              {word.hanzi}
+            <div className="flex items-center gap-3 mb-3">
+              <div className="hanzi-display text-5xl font-bold text-gray-900">
+                {word.hanzi}
+              </div>
+              <AudioButton text={word.hanzi} />
             </div>
             <div className="text-2xl mb-2">
               <PinyinDisplay pinyin={word.pinyin} />

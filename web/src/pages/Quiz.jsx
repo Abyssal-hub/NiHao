@@ -3,11 +3,21 @@ import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useQuiz } from '../hooks/useQuiz'
 import { useSpeech } from '../hooks/useSpeech'
 
-function AudioButton({ text, size = 'md' }) {
+function AudioButton({ text, size = 'md', autoPlay = false }) {
   const { speak, speaking, supported } = useSpeech()
+
+  // Auto-play when word changes
+  useEffect(() => {
+    if (autoPlay && supported && text) {
+      // Small delay to let the UI render first
+      const timer = setTimeout(() => speak(text), 300)
+      return () => clearTimeout(timer)
+    }
+  }, [text, autoPlay, supported, speak])
+
   if (!supported) return null
 
-  const sizeClass = size === 'lg' ? 'p-3 text-xl' : 'p-2 text-base'
+  const sizeClass = size === 'lg' ? 'p-4 text-2xl' : 'p-2 text-base'
 
   return (
     <button
@@ -15,7 +25,7 @@ function AudioButton({ text, size = 'md' }) {
         e.stopPropagation()
         speak(text)
       }}
-      className={`${sizeClass} rounded-full bg-gray-100 hover:bg-gray-200 transition-colors ${speaking ? 'animate-pulse bg-red-100' : ''}`}
+      className={`${sizeClass} rounded-full bg-red-50 hover:bg-red-100 text-red-600 transition-colors ${speaking ? 'animate-pulse bg-red-200' : ''}`}
       title="Listen to pronunciation"
     >
       🔊
@@ -209,15 +219,17 @@ export default function Quiz() {
         <div className="text-sm text-gray-500">
           Score: <span className="font-semibold text-green-600">{correctCount}</span>
         </div>
-        <AudioButton text={question.word.hanzi} />
       </div>
 
       {/* Question Card */}
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 mb-6">
         <div className="text-center mb-6">
           <p className="text-sm text-gray-400 mb-3">What does this mean?</p>
-          <div className="hanzi-display text-7xl font-bold text-gray-900 mb-2">
-            {question.word.hanzi}
+          <div className="flex items-center justify-center gap-4 mb-2">
+            <div className="hanzi-display text-7xl font-bold text-gray-900">
+              {question.word.hanzi}
+            </div>
+            <AudioButton text={question.word.hanzi} size="lg" autoPlay={!answered} />
           </div>
         </div>
 
@@ -264,8 +276,11 @@ export default function Quiz() {
             {/* Word Details */}
             <div className="bg-white rounded-xl p-4 mb-3">
               <div className="text-center">
-                <div className="hanzi-display text-4xl font-bold text-gray-800 mb-1">
-                  {question.word.hanzi}
+                <div className="flex items-center justify-center gap-3 mb-1">
+                  <div className="hanzi-display text-4xl font-bold text-gray-800">
+                    {question.word.hanzi}
+                  </div>
+                  <AudioButton text={question.word.hanzi} />
                 </div>
                 <div className="text-lg mb-1">
                   <PinyinDisplay pinyin={question.word.pinyin} />
