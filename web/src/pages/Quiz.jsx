@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useQuiz } from '../hooks/useQuiz'
 import { useSpeech } from '../hooks/useSpeech'
+import { SpeakerIcon, CheckIcon, XIcon, TrophyIcon } from '../components/Icons'
 
 function AudioButton({ text, size = 'md', autoPlay = false }) {
   const { speak, speaking, supported } = useSpeech()
@@ -17,7 +18,8 @@ function AudioButton({ text, size = 'md', autoPlay = false }) {
 
   if (!supported) return null
 
-  const sizeClass = size === 'lg' ? 'p-4 text-2xl' : 'p-2 text-base'
+  const sizeClass = size === 'lg' ? 'p-3.5' : 'p-2'
+  const iconClass = size === 'lg' ? 'w-6 h-6' : 'w-5 h-5'
 
   return (
     <button
@@ -25,10 +27,10 @@ function AudioButton({ text, size = 'md', autoPlay = false }) {
         e.stopPropagation()
         speak(text)
       }}
-      className={`${sizeClass} rounded-full bg-red-50 hover:bg-red-100 text-red-600 transition-colors ${speaking ? 'animate-pulse bg-red-200' : ''}`}
-      title="Listen to pronunciation"
+      aria-label="Listen to pronunciation"
+      className={`${sizeClass} rounded-full bg-red-50 hover:bg-red-100 text-red-600 transition-colors inline-flex items-center justify-center ${speaking ? 'animate-pulse bg-red-200' : ''}`}
     >
-      🔊
+      <SpeakerIcon className={iconClass} />
     </button>
   )
 }
@@ -85,11 +87,11 @@ function ProgressBar({ current, total }) {
   const pct = total > 0 ? Math.round(((current + 1) / total) * 100) : 0
   return (
     <div className="mb-4">
-      <div className="flex justify-between text-sm text-gray-500 mb-1">
+      <div className="flex justify-between text-sm font-medium text-gray-600 mb-1.5">
         <span>{current + 1} / {total}</span>
         <span>{pct}%</span>
       </div>
-      <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+      <div className="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
         <div
           className="h-full bg-red-500 rounded-full transition-all duration-300"
           style={{ width: `${pct}%` }}
@@ -105,8 +107,10 @@ function ResultScreen({ correct, total, wrongWords, onRetry, onHome }) {
   return (
     <div className="max-w-lg mx-auto px-4 py-8 fade-in">
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 text-center">
-        <div className="text-6xl mb-4">
-          {pct >= 90 ? '🎉' : pct >= 70 ? '👍' : pct >= 50 ? '📚' : '💪'}
+        <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 ${
+          pct >= 70 ? 'bg-green-100 text-green-600' : pct >= 50 ? 'bg-amber-100 text-amber-600' : 'bg-red-100 text-red-600'
+        }`}>
+          <TrophyIcon className="w-9 h-9" />
         </div>
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Quiz Complete!</h2>
         <p className="text-gray-500 mb-6">
@@ -225,10 +229,10 @@ export default function Quiz() {
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 mb-6">
         <div className="text-center mb-6">
           <p className="text-sm text-gray-400 mb-3">What does this mean?</p>
-          <div className="flex items-center justify-center gap-4 mb-2">
-            <div className="hanzi-display text-7xl font-bold text-gray-900">
-              {question.word.hanzi}
-            </div>
+          <div className="hanzi-display text-7xl font-bold text-gray-900 mb-3">
+            {question.word.hanzi}
+          </div>
+          <div className="flex justify-center">
             <AudioButton text={question.word.hanzi} size="lg" autoPlay={!answered} />
           </div>
         </div>
@@ -267,7 +271,11 @@ export default function Quiz() {
         {answered && (
           <div className={`mt-6 p-4 rounded-xl fade-in ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xl">{isCorrect ? '✅' : '❌'}</span>
+              <span className={`inline-flex items-center justify-center w-7 h-7 rounded-full ${
+                isCorrect ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600'
+              }`}>
+                {isCorrect ? <CheckIcon className="w-4 h-4" /> : <XIcon className="w-4 h-4" />}
+              </span>
               <span className={`font-semibold ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
                 {isCorrect ? 'Correct!' : 'Wrong!'}
               </span>

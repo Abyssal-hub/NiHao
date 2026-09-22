@@ -1,6 +1,15 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getSessions } from '../utils/leitner'
+import { QuizIcon, CardsIcon, InboxIcon } from '../components/Icons'
+
+function ModeIcon({ mode, className = 'w-6 h-6' }) {
+  return mode === 'quiz' ? (
+    <QuizIcon className={className} />
+  ) : (
+    <CardsIcon className={className} />
+  )
+}
 
 function SessionCard({ session, index }) {
   const [expanded, setExpanded] = useState(false)
@@ -9,7 +18,6 @@ function SessionCard({ session, index }) {
     ? Math.round((session.correct / session.totalWords) * 100)
     : 0
 
-  const modeIcon = session.mode === 'quiz' ? '📝' : '🃏'
   const modeLabel = session.mode === 'quiz' ? 'Quiz' : 'Flashcard'
 
   return (
@@ -20,7 +28,9 @@ function SessionCard({ session, index }) {
       >
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="text-2xl">{modeIcon}</span>
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600">
+              <ModeIcon mode={session.mode} />
+            </span>
             <div>
               <div className="font-semibold text-gray-800">
                 {modeLabel} — L{session.lessonStart} to L{session.lessonEnd}
@@ -112,7 +122,7 @@ export default function History() {
                 : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}
           >
-            {f === 'all' ? 'All' : f === 'quiz' ? '📝 Quiz' : '🃏 Flashcard'}
+            {f === 'all' ? 'All' : f === 'quiz' ? 'Quiz' : 'Flashcard'}
           </button>
         ))}
       </div>
@@ -120,7 +130,9 @@ export default function History() {
       {/* Session List */}
       {filtered.length === 0 ? (
         <div className="text-center py-12">
-          <div className="text-5xl mb-4">📭</div>
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
+            <InboxIcon className="w-8 h-8" />
+          </div>
           <p className="text-gray-500 mb-4">No sessions yet</p>
           <Link
             to="/"

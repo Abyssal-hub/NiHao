@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getWordStats } from '../utils/leitner'
+import { ChartIcon } from '../components/Icons'
 
 function WordRow({ hanzi, stats }) {
   const total = stats.seen || 0
@@ -105,9 +106,17 @@ export default function Stats() {
       {/* Sort Options */}
       <div className="flex gap-2 mb-4">
         {[
-          { id: 'worst', label: '🔴 Needs Work' },
-          { id: 'mostSeen', label: '📊 Most Seen' },
-          { id: 'best', label: '🟢 Best' },
+          { id: 'worst', label: (
+            <span className="inline-flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-red-500" /> Needs Work
+            </span>
+          ) },
+          { id: 'mostSeen', label: 'Most Seen' },
+          { id: 'best', label: (
+            <span className="inline-flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-green-500" /> Best
+            </span>
+          ) },
         ].map((opt) => (
           <button
             key={opt.id}
@@ -126,7 +135,9 @@ export default function Stats() {
       {/* Word Stats List */}
       {sorted.length === 0 ? (
         <div className="text-center py-12">
-          <div className="text-5xl mb-4">📊</div>
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
+            <ChartIcon className="w-8 h-8" />
+          </div>
           <p className="text-gray-500 mb-4">No practice data yet</p>
           <Link
             to="/"

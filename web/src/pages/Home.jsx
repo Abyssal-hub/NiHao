@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { getLessonList } from '../utils/vocabularyLoader'
+import { QuizIcon, CardsIcon } from '../components/Icons'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -93,7 +94,9 @@ export default function Home() {
           onClick={startQuiz}
           className="bg-red-600 hover:bg-red-700 text-white rounded-2xl p-5 text-center transition-colors active:scale-95"
         >
-          <div className="text-3xl mb-2">📝</div>
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-red-100 text-red-600 mb-3">
+            <QuizIcon className="w-6 h-6" />
+          </div>
           <div className="font-semibold">Quiz</div>
           <div className="text-xs text-red-200 mt-1">Multiple choice</div>
         </button>
@@ -102,7 +105,9 @@ export default function Home() {
           onClick={startFlashcard}
           className="bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-200 rounded-2xl p-5 text-center transition-colors active:scale-95"
         >
-          <div className="text-3xl mb-2">🃏</div>
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-50 text-blue-600 mb-3">
+            <CardsIcon className="w-6 h-6" />
+          </div>
           <div className="font-semibold">Flashcards</div>
           <div className="text-xs text-gray-400 mt-1">Self-graded</div>
         </button>

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useFlashcard } from '../hooks/useFlashcard'
 import { useSpeech } from '../hooks/useSpeech'
+import { SpeakerIcon, CheckIcon, XIcon, TrophyIcon } from '../components/Icons'
 
 function AudioButton({ text, size = 'md', autoPlay = false }) {
   const { speak, speaking, supported } = useSpeech()
@@ -16,7 +17,8 @@ function AudioButton({ text, size = 'md', autoPlay = false }) {
 
   if (!supported) return null
 
-  const sizeClass = size === 'lg' ? 'p-4 text-2xl' : 'p-2 text-base'
+  const sizeClass = size === 'lg' ? 'p-3.5' : 'p-2'
+  const iconClass = size === 'lg' ? 'w-6 h-6' : 'w-5 h-5'
 
   return (
     <button
@@ -24,10 +26,10 @@ function AudioButton({ text, size = 'md', autoPlay = false }) {
         e.stopPropagation()
         speak(text)
       }}
-      className={`${sizeClass} rounded-full bg-blue-50 hover:bg-blue-100 text-blue-600 transition-colors ${speaking ? 'animate-pulse bg-blue-200' : ''}`}
-      title="Listen to pronunciation"
+      aria-label="Listen to pronunciation"
+      className={`${sizeClass} rounded-full bg-blue-50 hover:bg-blue-100 text-blue-600 transition-colors inline-flex items-center justify-center ${speaking ? 'animate-pulse bg-blue-200' : ''}`}
     >
-      🔊
+      <SpeakerIcon className={iconClass} />
     </button>
   )
 }
@@ -104,8 +106,10 @@ function ResultScreen({ correct, total, wrongWords, onRetry, onHome }) {
   return (
     <div className="max-w-lg mx-auto px-4 py-8 fade-in">
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 text-center">
-        <div className="text-6xl mb-4">
-          {pct >= 90 ? '🎉' : pct >= 70 ? '👍' : pct >= 50 ? '📚' : '💪'}
+        <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 ${
+          pct >= 70 ? 'bg-green-100 text-green-600' : pct >= 50 ? 'bg-amber-100 text-amber-600' : 'bg-red-100 text-red-600'
+        }`}>
+          <TrophyIcon className="w-9 h-9" />
         </div>
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Flashcards Complete!</h2>
         <p className="text-gray-500 mb-6">
@@ -172,7 +176,7 @@ export default function Flashcard() {
     index,
     total,
     flipped,
-    correctCount,
+    knewCount,
     wrongWords,
     complete,
     flip,
@@ -215,7 +219,7 @@ export default function Flashcard() {
   if (complete) {
     return (
       <ResultScreen
-        correct={correctCount}
+        correct={knewCount}
         total={total}
         wrongWords={wrongWords}
         onRetry={retryWrong}
@@ -245,7 +249,7 @@ export default function Flashcard() {
       {/* Score */}
       <div className="flex justify-between items-center mb-4">
         <div className="text-sm text-gray-500">
-          Knew: <span className="font-semibold text-green-600">{correctCount}</span>
+          Knew: <span className="font-semibold text-green-600">{knewCount}</span>
           {' | '}
           Forgot: <span className="font-semibold text-red-600">{wrongWords.length}</span>
         </div>
@@ -262,10 +266,10 @@ export default function Flashcard() {
         <div className={`flashcard-inner ${flipped ? 'flipped' : ''}`}>
           {/* Front */}
           <div className="flashcard-front bg-white rounded-2xl shadow-sm border border-gray-200 flex flex-col items-center justify-center p-6">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="hanzi-display text-8xl font-bold text-gray-900">
-                {word.hanzi}
-              </div>
+            <div className="hanzi-display text-8xl font-bold text-gray-900 mb-3">
+              {word.hanzi}
+            </div>
+            <div className="mb-4">
               <AudioButton text={word.hanzi} size="lg" autoPlay={true} />
             </div>
             <p className="text-gray-400 text-sm">Tap to reveal answer</p>
@@ -302,13 +306,19 @@ export default function Flashcard() {
             onClick={() => grade(false)}
             className="py-4 bg-red-100 hover:bg-red-200 text-red-700 font-semibold rounded-xl transition-colors active:scale-95"
           >
-            ❌ Forgot
+            <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-200 text-red-700 mr-1.5">
+              <XIcon className="w-3.5 h-3.5" />
+            </span>
+            Forgot
           </button>
           <button
             onClick={() => grade(true)}
             className="py-4 bg-green-100 hover:bg-green-200 text-green-700 font-semibold rounded-xl transition-colors active:scale-95"
           >
-            ✅ Knew It
+            <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-200 text-green-700 mr-1.5">
+              <CheckIcon className="w-3.5 h-3.5" />
+            </span>
+            Knew It
           </button>
         </div>
       ) : (
