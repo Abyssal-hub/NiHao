@@ -286,12 +286,14 @@ export default function Flashcard() {
             <div className="text-2xl mb-2">
               <PinyinDisplay pinyin={word.pinyin} />
             </div>
-            <div className="text-lg font-semibold text-gray-700 mb-1">
-              🇬🇧 {word.english}
+            <div className="text-lg font-semibold text-gray-700 mb-1 inline-flex items-center">
+              <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 mr-1.5">EN</span>
+              {word.english}
             </div>
             {word.vietnamese && (
-              <div className="text-base text-gray-600 mb-2">
-                🇻🇳 {word.vietnamese}
+              <div className="text-base text-gray-600 mb-2 inline-flex items-center">
+                <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-red-100 text-red-700 mr-1.5">VI</span>
+                {word.vietnamese}
               </div>
             )}
             <ExampleSentences examples={word.example_sentences} />

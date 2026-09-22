@@ -293,12 +293,14 @@ export default function Quiz() {
                 <div className="text-lg mb-1">
                   <PinyinDisplay pinyin={question.word.pinyin} />
                 </div>
-                <div className="text-gray-700 font-medium mb-1">
-                  🇬🇧 {question.word.english}
+                <div className="text-gray-700 font-medium mb-1 inline-flex items-center">
+                  <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 mr-1.5">EN</span>
+                  {question.word.english}
                 </div>
                 {question.word.vietnamese && (
-                  <div className="text-gray-600">
-                    🇻🇳 {question.word.vietnamese}
+                  <div className="text-gray-600 inline-flex items-center">
+                    <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-red-100 text-red-700 mr-1.5">VI</span>
+                    {question.word.vietnamese}
                   </div>
                 )}
               </div>
