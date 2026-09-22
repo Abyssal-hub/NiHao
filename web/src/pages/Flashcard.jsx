@@ -1,19 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useFlashcard } from '../hooks/useFlashcard'
 import { useSpeech } from '../hooks/useSpeech'
 import { SpeakerIcon, CheckIcon, XIcon, TrophyIcon } from '../components/Icons'
 
-function AudioButton({ text, size = 'md', autoPlay = false }) {
+function AudioButton({ text, size = 'md' }) {
   const { speak, speaking, supported } = useSpeech()
-
-  // Auto-play when word changes
-  useEffect(() => {
-    if (autoPlay && supported && text) {
-      const timer = setTimeout(() => speak(text), 300)
-      return () => clearTimeout(timer)
-    }
-  }, [text, autoPlay, supported, speak])
 
   if (!supported) return null
 
@@ -270,7 +262,7 @@ export default function Flashcard() {
               {word.hanzi}
             </div>
             <div className="mb-4">
-              <AudioButton text={word.hanzi} size="lg" autoPlay={true} />
+              <AudioButton text={word.hanzi} size="lg" />
             </div>
             <p className="text-gray-400 text-sm">Tap to reveal answer</p>
           </div>

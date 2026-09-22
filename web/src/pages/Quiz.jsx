@@ -1,20 +1,10 @@
-import { useState, useEffect } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useQuiz } from '../hooks/useQuiz'
 import { useSpeech } from '../hooks/useSpeech'
 import { SpeakerIcon, CheckIcon, XIcon, TrophyIcon } from '../components/Icons'
 
-function AudioButton({ text, size = 'md', autoPlay = false }) {
+function AudioButton({ text, size = 'md' }) {
   const { speak, speaking, supported } = useSpeech()
-
-  // Auto-play when word changes
-  useEffect(() => {
-    if (autoPlay && supported && text) {
-      // Small delay to let the UI render first
-      const timer = setTimeout(() => speak(text), 300)
-      return () => clearTimeout(timer)
-    }
-  }, [text, autoPlay, supported, speak])
 
   if (!supported) return null
 
@@ -233,7 +223,7 @@ export default function Quiz() {
             {question.word.hanzi}
           </div>
           <div className="flex justify-center">
-            <AudioButton text={question.word.hanzi} size="lg" autoPlay={!answered} />
+            <AudioButton text={question.word.hanzi} size="lg" />
           </div>
         </div>
 
