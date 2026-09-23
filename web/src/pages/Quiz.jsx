@@ -283,7 +283,7 @@ export default function Quiz() {
                 <div className="text-lg mt-2 mb-5">
                   <PinyinDisplay pinyin={question.word.pinyin} />
                 </div>
-                <div className="space-y-2.5">
+                <div className="flex flex-col items-center gap-2.5">
                   <div className="text-gray-700 font-medium inline-flex items-center">
                     <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 mr-1.5">EN</span>
                     {question.word.english}
