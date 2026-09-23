@@ -272,27 +272,29 @@ export default function Quiz() {
             </div>
 
             {/* Word Details */}
-            <div className="bg-white rounded-xl p-4 mb-3">
+            <div className="bg-white rounded-xl p-5 mb-3">
               <div className="text-center">
-                <div className="flex items-center justify-center gap-3 mb-1">
+                <div className="flex items-center justify-center gap-3">
                   <div className="hanzi-display text-4xl font-bold text-gray-800">
                     {question.word.hanzi}
                   </div>
                   <AudioButton text={question.word.hanzi} />
                 </div>
-                <div className="text-lg mb-1">
+                <div className="text-lg mt-2 mb-5">
                   <PinyinDisplay pinyin={question.word.pinyin} />
                 </div>
-                <div className="text-gray-700 font-medium mb-1 inline-flex items-center">
-                  <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 mr-1.5">EN</span>
-                  {question.word.english}
-                </div>
-                {question.word.vietnamese && (
-                  <div className="text-gray-600 inline-flex items-center">
-                    <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-red-100 text-red-700 mr-1.5">VI</span>
-                    {question.word.vietnamese}
+                <div className="space-y-2.5">
+                  <div className="text-gray-700 font-medium inline-flex items-center">
+                    <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 mr-1.5">EN</span>
+                    {question.word.english}
                   </div>
-                )}
+                  {question.word.vietnamese && (
+                    <div className="text-gray-600 inline-flex items-center">
+                      <span className="inline-flex items-center justify-center w-7 h-5 rounded text-[10px] font-bold bg-red-100 text-red-700 mr-1.5">VI</span>
+                      {question.word.vietnamese}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
