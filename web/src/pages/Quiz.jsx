@@ -274,10 +274,10 @@ export default function Quiz() {
             {/* Word Details */}
             <div className="bg-white rounded-xl p-5 mb-3">
               <div className="text-center">
-                <div className="flex items-center justify-center gap-3">
-                  <div className="hanzi-display text-4xl font-bold text-gray-800">
-                    {question.word.hanzi}
-                  </div>
+                <div className="hanzi-display text-4xl font-bold text-gray-800 mb-2">
+                  {question.word.hanzi}
+                </div>
+                <div className="flex justify-center mb-1">
                   <AudioButton text={question.word.hanzi} />
                 </div>
                 <div className="text-lg mt-2 mb-5">

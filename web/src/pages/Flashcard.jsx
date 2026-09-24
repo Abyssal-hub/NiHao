@@ -269,10 +269,10 @@ export default function Flashcard() {
 
           {/* Back */}
           <div className="flashcard-back bg-white rounded-2xl shadow-sm border border-gray-200 flex flex-col items-center justify-center p-6 overflow-y-auto">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="hanzi-display text-5xl font-bold text-gray-900">
-                {word.hanzi}
-              </div>
+            <div className="hanzi-display text-5xl font-bold text-gray-900 mb-2">
+              {word.hanzi}
+            </div>
+            <div className="flex justify-center mb-2">
               <AudioButton text={word.hanzi} />
             </div>
             <div className="text-2xl mb-2">
