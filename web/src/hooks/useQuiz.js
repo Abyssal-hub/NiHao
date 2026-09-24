@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { getWordsForRange } from '../utils/vocabularyLoader'
 import { shuffle, buildQuestion } from '../utils/scoring'
 import { recordSession } from '../utils/leitner'
+import { playSuccessSound } from '../utils/sounds'
 
 function initQueue(start, end, includeAppendix) {
   return shuffle(getWordsForRange(start, end, { includeAppendix }))
@@ -49,6 +50,7 @@ export function useQuiz({ start, end, includeAppendix = false }) {
       setCorrectCount((c) => c + (isCorrect ? 1 : 0))
       setWrongWords((w) => (isCorrect ? w : [...w, question.word]))
       setResults((r) => [...r, { word: question.word, correct: isCorrect }])
+      if (isCorrect) playSuccessSound()
     },
     [answered, complete, question]
   )
