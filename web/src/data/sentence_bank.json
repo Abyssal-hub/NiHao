@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "description": "English-to-Chinese sentence translation bank (from hsk10.pptx review dialogues)",
+    "source": "hsk10.pptx",
+    "level": "HSK1",
+    "created": "2026-09-27",
+    "note": "Reference translations using HSK1 vocabulary. Words beyond current DB: 喜欢, 每天, 没有, 知道, 手机, 桌子, 贵, 能, 坐, 这儿, 水果, 苹果, 香蕉, 面条, 太太, 漂亮 — candidates for future lessons."
+  },
+  "dialogues": [
+    {
+      "id": 1,
+      "english": "A: Hello! Where are you from?\nB: I'm American. How about you?\nA: I'm Chinese. Can you speak Chinese?\nB: I can speak Chinese.\nA: Who is your Chinese teacher?\nB: She is teacher Li. Do you know her?\nA: Yes, I do. She is very friendly.",
+      "chinese": "A: 你好！你是哪国人？\nB: 我是美国人。你呢？\nA: 我是中国人。你会说汉语吗？\nB: 我会说汉语。\nA: 谁是你们的汉语老师？\nB: 她是李老师。你认识她吗？\nA: 认识，她人很好。",
+      "pinyin": "A: Nǐ hǎo! Nǐ shì nǎ guó rén?\nB: Wǒ shì Měiguó rén. Nǐ ne?\nA: Wǒ shì Zhōngguó rén. Nǐ huì shuō Hànyǔ ma?\nB: Wǒ huì shuō Hànyǔ.\nA: Shéi shì nǐmen de Hànyǔ lǎoshī?\nB: Tā shì Lǐ lǎoshī. Nǐ rènshi tā ma?\nA: Rènshi, tā rén hěn hǎo."
+    },
+    {
+      "id": 2,
+      "english": "A: Who is she?\nB: She is my French teacher.\nA: Do you like her class?\nB: I like her class.\nA: How many years has she been working in the school?\nB: Eight years.",
+      "chinese": "A: 她是谁？\nB: 她是我的法语老师。\nA: 你喜欢她的课吗？\nB: 我喜欢她的课。\nA: 她在学校工作几年了？\nB: 八年。",
+      "pinyin": "A: Tā shì shéi?\nB: Tā shì wǒ de Fǎyǔ lǎoshī.\nA: Nǐ xǐhuan tā de kè ma?\nB: Wǒ xǐhuan tā de kè.\nA: Tā zài xuéxiào gōngzuò jǐ nián le?\nB: Bā nián."
+    },
+    {
+      "id": 3,
+      "english": "A: Is he your classmate?\nB: He is not my classmate.\nA: Who is he?\nB: He is my friend.\nA: Where is he from?\nB: He is American.",
+      "chinese": "A: 他是你的同学吗？\nB: 他不是我的同学。\nA: 他是谁？\nB: 他是我的朋友。\nA: 他是哪国人？\nB: 他是美国人。",
+      "pinyin": "A: Tā shì nǐ de tóngxué ma?\nB: Tā bú shì wǒ de tóngxué.\nA: Tā shì shéi?\nB: Tā shì wǒ de péngyou.\nA: Tā shì nǎ guó rén?\nB: Tā shì Měiguó rén."
+    },
+    {
+      "id": 4,
+      "english": "A: Whose book is this?\nB: This is my book.\nA: Do you read it every day?\nB: I read every day.\nA: What book is this?\nB: This is a Chinese book.",
+      "chinese": "A: 这是谁的书？\nB: 这是我的书。\nA: 你每天看书吗？\nB: 我每天看书。\nA: 这是什么书？\nB: 这是汉语书。",
+      "pinyin": "A: Zhè shì shéi de shū?\nB: Zhè shì wǒ de shū.\nA: Nǐ měitiān kàn shū ma?\nB: Wǒ měitiān kàn shū.\nA: Zhè shì shénme shū?\nB: Zhè shì Hànyǔ shū."
+    },
+    {
+      "id": 5,
+      "english": "A: How many people are in your family?\nB: There are five people in my family.\nA: Who are they?\nB: Dad, mom, grandpa, grandma and me. What about you?\nA: There are also five people in my family, dad, mom, my little brother, my elder sister and me.",
+      "chinese": "A: 你家有几口人？\nB: 我家有五口人。\nA: 他们是谁？\nB: 爸爸、妈妈、爷爷、奶奶和我。你家呢？\nA: 我家也有五口人，爸爸、妈妈、弟弟、姐姐和我。",
+      "pinyin": "A: Nǐ jiā yǒu jǐ kǒu rén?\nB: Wǒ jiā yǒu wǔ kǒu rén.\nA: Tāmen shì shéi?\nB: Bàba, māma, yéye, nǎinai hé wǒ. Nǐ jiā ne?\nA: Wǒ jiā yě yǒu wǔ kǒu rén, bàba, māma, dìdi, jiějie hé wǒ."
+    },
+    {
+      "id": 6,
+      "english": "A: How old is your little brother and elder sister this year?\nB: My little brother is eight, my elder sister is sixteen. How are your grandpa and grandma? And how old are they?\nA: They are well. My grandpa is seventy four years old and my grandma is sixty nine years old.",
+      "chinese": "A: 你弟弟和姐姐今年几岁？\nB: 我弟弟八岁，姐姐十六岁。你爷爷奶奶好吗？他们今年几岁？\nA: 他们很好。我爷爷七十四岁，奶奶六十九岁。",
+      "pinyin": "A: Nǐ dìdi hé jiějie jīnnián jǐ suì?\nB: Wǒ dìdi bā suì, jiějie shíliù suì. Nǐ yéye nǎinai hǎo ma? Tāmen jīnnián jǐ suì?\nA: Tāmen hěn hǎo. Wǒ yéye qīshí sì suì, nǎinai liùshí jiǔ suì."
+    },
+    {
+      "id": 7,
+      "english": "A: Where does your father work?\nB: My father works in a hospital.\nA: Is he a doctor?\nB: He is a doctor.\nA: Which day is he off?\nB: No idea. He has surgeries every day.\nA: Does your mother work?\nB: My mother does not work. She used to work in the bank.",
+      "chinese": "A: 你爸爸在哪儿工作？\nB: 我爸爸在医院工作。\nA: 他是医生吗？\nB: 他是医生。\nA: 他哪天休息？\nB: 不知道，他每天做手术。\nA: 你妈妈工作吗？\nB: 我妈妈不工作，她以前在银行工作。",
+      "pinyin": "A: Nǐ bàba zài nǎr gōngzuò?\nB: Wǒ bàba zài yīyuàn gōngzuò.\nA: Tā shì yīshēng ma?\nB: Tā shì yīshēng.\nA: Tā nǎ tiān xiūxi?\nB: Bù zhīdào, tā měitiān zuò shǒushù.\nA: Nǐ māma gōngzuò ma?\nB: Wǒ māma bù gōngzuò, tā yǐqián zài yínháng gōngzuò."
+    },
+    {
+      "id": 8,
+      "english": "A: Can you speak Chinese?\nB: I can speak Chinese.\nA: Can you write Chinese characters?\nB: I can write Chinese characters.\nA: How do you read this character?\nB: I can't read this character. Do you know?\nA: No, I don't either. Let's go and ask Teacher Li.\nB: Okay.",
+      "chinese": "A: 你会说汉语吗？\nB: 我会说汉语。\nA: 你会写汉字吗？\nB: 我会写汉字。\nA: 这个字怎么念？\nB: 我不认识这个字，你认识吗？\nA: 我也不认识，我们去问李老师吧。\nB: 好。",
+      "pinyin": "A: Nǐ huì shuō Hànyǔ ma?\nB: Wǒ huì shuō Hànyǔ.\nA: Nǐ huì xiě Hànzì ma?\nB: Wǒ huì xiě Hànzì.\nA: Zhège zì zěnme niàn?\nB: Wǒ bú rènshi zhège zì, nǐ rènshi ma?\nA: Wǒ yě bú rènshi, wǒmen qù wèn Lǐ lǎoshī ba.\nB: Hǎo."
+    },
+    {
+      "id": 9,
+      "english": "A: Is Chinese food delicious?\nB: Chinese food is very delicious.\nA: Can you cook Chinese food?\nB: I can't cook Chinese food.\nA: What do you want to eat tonight?\nB: I want to eat Cantonese food tonight.\nA: Okay, there is a Cantonese restaurant just ahead. Let's go try it together.",
+      "chinese": "A: 中国菜好吃吗？\nB: 中国菜很好吃。\nA: 你会做中国菜吗？\nB: 我不会做中国菜。\nA: 今天晚上你想吃什么？\nB: 我今天晚上想吃广东菜。\nA: 好，前面的饭馆有广东菜，我们一起去吧。",
+      "pinyin": "A: Zhōngguó cài hǎochī ma?\nB: Zhōngguó cài hěn hǎochī.\nA: Nǐ huì zuò Zhōngguó cài ma?\nB: Wǒ bú huì zuò Zhōngguó cài.\nA: Jīntiān wǎnshang nǐ xiǎng chī shénme?\nB: Wǒ jīntiān wǎnshang xiǎng chī Guǎngdōng cài.\nA: Hǎo, qiánmiàn de fànguǎn yǒu Guǎngdōng cài, wǒmen yìqǐ qù ba."
+    },
+    {
+      "id": 10,
+      "english": "A: Can you speak Chinese?\nB: No, I can't. I can speak English and French.\nA: Can your mother speak Chinese?\nB: Yes, she can speak Chinese. She works for a Chinese company.\nA: Can she tutor us?\nB: I will ask her. I think she can't, she doesn't have time.",
+      "chinese": "A: 你会说汉语吗？\nB: 不会，我会说英语和法语。\nA: 你妈妈会说汉语吗？\nB: 会，她会说汉语。她在中国的公司工作。\nA: 她能教我们吗？\nB: 我问问她。我想她不行，她没有时间。",
+      "pinyin": "A: Nǐ huì shuō Hànyǔ ma?\nB: Bú huì, wǒ huì shuō Yīngyǔ hé Fǎyǔ.\nA: Nǐ māma huì shuō Hànyǔ ma?\nB: Huì, tā huì shuō Hànyǔ. Tā zài Zhōngguó de gōngsī gōngzuò.\nA: Tā néng jiāo wǒmen ma?\nB: Wǒ wènwen tā. Wǒ xiǎng tā bù xíng, tā méiyǒu shíjiān."
+    },
+    {
+      "id": 11,
+      "english": "A: Excuse me, what's the date today?\nB: Today is September 1st.\nA: What day is today?\nB: Today is Wednesday.\nA: Do you have class today?\nB: No, I don't. I have class yesterday and tomorrow. I am off today.\nA: Great, let's play basketball together.\nB: Okay, there is a playground in front.",
+      "chinese": "A: 请问，今天几号？\nB: 今天是九月一号。\nA: 今天星期几？\nB: 今天星期三。\nA: 你今天有课吗？\nB: 没有，我昨天和明天有课，今天休息。\nA: 好，我们一起打篮球吧。\nB: 好，我们走吧。",
+      "pinyin": "A: Qǐngwèn, jīntiān jǐ hào?\nB: Jīntiān shì jiǔ yuè yī hào.\nA: Jīntiān xīngqī jǐ?\nB: Jīntiān xīngqī sān.\nA: Nǐ jīntiān yǒu kè ma?\nB: Méiyǒu, wǒ zuótiān hé míngtiān yǒu kè, jīntiān xiūxi.\nA: Hǎo, wǒmen yìqǐ dǎ lánqiú ba.\nB: Hǎo, wǒmen zǒu ba."
+    },
+    {
+      "id": 12,
+      "english": "A: Where will you go tomorrow morning?\nB: I will go to school.\nA: What will you do at school?\nB: I will read books at school.\nA: What do you want to do in the afternoon?\nB: I want to go to the store tomorrow afternoon.\nA: What do you want to buy?\nB: I want to buy a cup.",
+      "chinese": "A: 明天上午你去哪儿？\nB: 我去学校。\nA: 你在学校做什么？\nB: 我在学校看书。\nA: 下午你想做什么？\nB: 明天下午我想去商店。\nA: 你想买什么？\nB: 我想买一个杯子。",
+      "pinyin": "A: Míngtiān shàngwǔ nǐ qù nǎr?\nB: Wǒ qù xuéxiào.\nA: Nǐ zài xuéxiào zuò shénme?\nB: Wǒ zài xuéxiào kàn shū.\nA: Xiàwǔ nǐ xiǎng zuò shénme?\nB: Míngtiān xiàwǔ wǒ xiǎng qù shāngdiàn.\nA: Nǐ xiǎng mǎi shénme?\nB: Wǒ xiǎng mǎi yí ge bēizi."
+    },
+    {
+      "id": 13,
+      "english": "A: How much is this cup?\nB: Which one?\nA: The blue one with beautiful flowers on it.\nB: It is twenty four RMB.\nA: Okay, I like it, I can use it to drink tea everyday.",
+      "chinese": "A: 这个杯子多少钱？\nB: 哪一个？\nA: 蓝色的那个。\nB: 二十四块。\nA: 好，我喜欢，我用它喝茶。",
+      "pinyin": "A: Zhège bēizi duōshao qián?\nB: Nǎ yí ge?\nA: Lánsè de nàge.\nB: Èrshí sì kuài.\nA: Hǎo, wǒ xǐhuan, wǒ yòng tā hē chá."
+    },
+    {
+      "id": 14,
+      "english": "A: Will you go to school on Sunday?\nB: I won't go to school.\nA: Where will you go?\nB: I will go to my friend's home.\nA: What do you do?\nB: We have Chinese class together, we also play soccer in the park.",
+      "chinese": "A: 星期天你去学校吗？\nB: 我不去学校。\nA: 你去哪儿？\nB: 我去朋友家。\nA: 你们做什么？\nB: 我们一起学习汉语，也在公园踢足球。",
+      "pinyin": "A: Xīngqītiān nǐ qù xuéxiào ma?\nB: Wǒ bù qù xuéxiào.\nA: Nǐ qù nǎr?\nB: Wǒ qù péngyou jiā.\nA: Nǐmen zuò shénme?\nB: Wǒmen yìqǐ xuéxí Hànyǔ, yě zài gōngyuán tī zúqiú."
+    },
+    {
+      "id": 15,
+      "english": "A: What do you want to drink?\nB: I want to drink tea.\nA: What do you want to eat?\nB: I want to eat rice. What about you?\nA: I like to eat noodle, does this restaurant have noodle?\nB: Yes, it does.",
+      "chinese": "A: 你想喝什么？\nB: 我想喝茶。\nA: 你想吃什么？\nB: 我想吃米饭。你呢？\nA: 我喜欢吃面条，这个饭馆有面条吗？\nB: 有。",
+      "pinyin": "A: Nǐ xiǎng hē shénme?\nB: Wǒ xiǎng hē chá.\nA: Nǐ xiǎng chī shénme?\nB: Wǒ xiǎng chī mǐfàn. Nǐ ne?\nA: Wǒ xǐhuan chī miàntiáo, zhège fànguǎn yǒu miàntiáo ma?\nB: Yǒu."
+    },
+    {
+      "id": 16,
+      "english": "A: I'm off this afternoon.\nB: What will you do in the afternoon?\nA: I want to go to the store and the bank.\nB: There is a store in front of the school, a bank behind the school.\nA: I know that bank, my aunt is working there.\nB: I also go to the bank, let's go together... which one is your aunt?\nA: The person sitting in front of the computer desk is my aunt. On her left side is my uncle, he also works in the bank.",
+      "chinese": "A: 我今天下午休息。\nB: 你下午做什么？\nA: 我想去商店和银行。\nB: 学校前面有一个商店，学校后面有一个银行。\nA: 我认识那个银行，我姑姑在那儿工作。\nB: 我也去银行，我们一起去吧……哪个是你姑姑？\nA: 坐在电脑前面的那个人是我姑姑。她左边是我姑父，他也在银行工作。",
+      "pinyin": "A: Wǒ jīntiān xiàwǔ xiūxi.\nB: Nǐ xiàwǔ zuò shénme?\nA: Wǒ xiǎng qù shāngdiàn hé yínháng.\nB: Xuéxiào qiánmiàn yǒu yí ge shāngdiàn, xuéxiào hòumiàn yǒu yí ge yínháng.\nA: Wǒ rènshi nàge yínháng, wǒ gūgu zài nàr gōngzuò.\nB: Wǒ yě qù yínháng, wǒmen yìqǐ qù ba... nǎge shì nǐ gūgu?\nA: Zuò zài diànnǎo qiánmiàn de nàge rén shì wǒ gūgu. Tā zuǒbian shì wǒ gūfu, tā yě zài yínháng gōngzuò."
+    },
+    {
+      "id": 17,
+      "english": "A: How much is that mobile phone?\nB: That mobile phone is nine hundred forty yuan.\nA: Is it expensive?\nB: No idea, let's go to the shop on the right to check the price.\nA: Okay.\n(After checking the price)\nA: The shop on the right is expensive. Let's buy at the shop on the left. I like that mobile phone.",
+      "chinese": "A: 那个手机多少钱？\nB: 那个手机九百四十块。\nA: 贵吗？\nB: 不知道，我们去右边的商店看看吧。\nA: 好。\n（看了以后）\nA: 右边的商店很贵，我们在左边的商店买吧，我喜欢那个手机。",
+      "pinyin": "A: Nàge shǒujī duōshao qián?\nB: Nàge shǒujī jiǔ bǎi sìshí kuài.\nA: Guì ma?\nB: Bù zhīdào, wǒmen qù yòubian de shāngdiàn kànkan ba.\nA: Hǎo.\n(Kàn le yǐhòu)\nA: Yòubian de shāngdiàn hěn guì, wǒmen zài zuǒbian de shāngdiàn mǎi ba, wǒ xǐhuan nàge shǒujī."
+    },
+    {
+      "id": 18,
+      "english": "A: Where does your son work?\nB: My son works in a hospital.\nA: Is he a doctor?\nB: He is a doctor. What about your daughter?\nA: My daughter is a student, she doesn't work.",
+      "chinese": "A: 你儿子在哪儿工作？\nB: 我儿子在医院工作。\nA: 他是医生吗？\nB: 他是医生。你女儿呢？\nA: 我女儿是学生，她不工作。",
+      "pinyin": "A: Nǐ érzi zài nǎr gōngzuò?\nB: Wǒ érzi zài yīyuàn gōngzuò.\nA: Tā shì yīshēng ma?\nB: Tā shì yīshēng. Nǐ nǚ'ér ne?\nA: Wǒ nǚ'ér shì xuésheng, tā bù gōngzuò."
+    },
+    {
+      "id": 19,
+      "english": "A: Where is the dog?\nB: The dog is under the chair.\nA: Where is the cat?\nB: The cat is over there. She is on the table.\nA: They are sleeping.\nB: Are they yours?\nA: They are mine.",
+      "chinese": "A: 狗在哪儿？\nB: 狗在椅子下面。\nA: 猫在哪儿？\nB: 猫在那儿，在桌子上。\nA: 它们在睡觉。\nB: 它们是你们的吗？\nA: 它们是我的。",
+      "pinyin": "A: Gǒu zài nǎr?\nB: Gǒu zài yǐzi xiàmiàn.\nA: Māo zài nǎr?\nB: Māo zài nàr, zài zhuōzi shàng.\nA: Tāmen zài shuìjiào.\nB: Tāmen shì nǐmen de ma?\nA: Tāmen shì wǒ de."
+    },
+    {
+      "id": 20,
+      "english": "A: Is anyone here?\nB: There is no one here.\nA: Can I sit here?\nB: Sure, please sit down.\nA: Is that your computer and book on the table?\nB: Yes, they are mine.",
+      "chinese": "A: 这儿有人吗？\nB: 这儿没有人。\nA: 我能坐这儿吗？\nB: 可以，请坐。\nA: 桌子上的电脑和书是你的吗？\nB: 是的，它们是我的。",
+      "pinyin": "A: Zhèr yǒu rén ma?\nB: Zhèr méiyǒu rén.\nA: Wǒ néng zuò zhèr ma?\nB: Kěyǐ, qǐng zuò.\nA: Zhuōzi shàng de diànnǎo hé shū shì nǐ de ma?\nB: Shì de, tāmen shì wǒ de."
+    },
+    {
+      "id": 21,
+      "english": "A: Who is that person in front?\nB: That person in front is my wife.\nA: What about that person at the back?\nB: That person at the back is my son. The person on his left is my daughter.\nA: Your daughter is very beautiful. How old are they?\nB: My son is fourteen, my daughter is twenty two.",
+      "chinese": "A: 前面的那个人是谁？\nB: 前面的那个人是我太太。\nA: 后面的那个人呢？\nB: 后面的那个人是我儿子，他左边是我女儿。\nA: 你女儿很漂亮，他们今年几岁？\nB: 我儿子十四岁，女儿二十二岁。",
+      "pinyin": "A: Qiánmiàn de nàge rén shì shéi?\nB: Qiánmiàn de nàge rén shì wǒ tàitai.\nA: Hòumiàn de nàge rén ne?\nB: Hòumiàn de nàge rén shì wǒ érzi, tā zuǒbian shì wǒ nǚ'ér.\nA: Nǐ nǚ'ér hěn piàoliang, tāmen jīnnián jǐ suì?\nB: Wǒ érzi shísì suì, nǚ'ér èrshí'èr suì."
+    },
+    {
+      "id": 22,
+      "english": "A: Can you play tennis?\nB: No, I can't. What about you?\nA: I also can't. Can you play basketball?\nB: Yes, I can.\nA: Can you play soccer?\nB: Yes, I can.\nA: Do you want to play basketball or soccer together?\nA: I like soccer, shall we play soccer together on Saturday?\nB: Okay, see you on Saturday!",
+      "chinese": "A: 你会打网球吗？\nB: 不会。你呢？\nA: 我也不会。你会打篮球吗？\nB: 会。\nA: 你会踢足球吗？\nB: 会。\nA: 你想一起打篮球还是踢足球？\nA: 我喜欢足球，我们星期六一起踢足球吧。\nB: 好，星期六见！",
+      "pinyin": "A: Nǐ huì dǎ wǎngqiú ma?\nB: Bú huì. Nǐ ne?\nA: Wǒ yě bú huì. Nǐ huì dǎ lánqiú ma?\nB: Huì.\nA: Nǐ huì tī zúqiú ma?\nB: Huì.\nA: Nǐ xiǎng yìqǐ dǎ lánqiú háishi tī zúqiú?\nA: Wǒ xǐhuan zúqiú, wǒmen xīngqīliù yìqǐ tī zúqiú ba.\nB: Hǎo, xīngqīliù jiàn!"
+    },
+    {
+      "id": 23,
+      "english": "(In a restaurant, after meals)\nA: What fruits do you have today?\nB: We have apples and bananas. Do you want to eat apples or bananas?\nA: I want to eat apples.\nB: Okay, how many apples do you want?\nA: Three.",
+      "chinese": "（在饭馆，吃饭以后）\nA: 你们今天有什么水果？\nB: 我们有苹果和香蕉。你想吃苹果还是香蕉？\nA: 我想吃苹果。\nB: 好，你要几个苹果？\nA: 三个。",
+      "pinyin": "(Zài fànguǎn, chīfàn yǐhòu)\nA: Nǐmen jīntiān yǒu shénme shuǐguǒ?\nB: Wǒmen yǒu píngguǒ hé xiāngjiāo. Nǐ xiǎng chī píngguǒ háishi xiāngjiāo?\nA: Wǒ xiǎng chī píngguǒ.\nB: Hǎo, nǐ yào jǐ ge píngguǒ?\nA: Sān ge."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "metadata": {
     "course": "HSK1 Standard Course",
-    "total_lessons": 9,
+    "total_lessons": 10,
     "format_version": "2.0",
-    "last_updated": "2026-09-17",
+    "last_updated": "2026-09-27",
     "fields": [
       "hanzi",
       "pinyin",
@@ -2429,6 +2429,230 @@
           "examples": [
             "你儿子在哪儿工作？Nǐ érzi zài nǎr gōngzuò? (Where does your son work?)",
             "猫在椅子下面。Māo zài yǐzi xiàmiàn. (The cat is under the chair.)"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 11,
+      "title": "现在几点 (What time is it now)",
+      "words": [
+        {
+          "hanzi": "现在",
+          "pinyin": "xiànzài",
+          "english": "now / at present",
+          "vietnamese": "bây giờ / hiện tại",
+          "example_sentences": [
+            "现在几点？Xiànzài jǐ diǎn? (What time is it now?)"
+          ],
+          "tags": [
+            "noun",
+            "time",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "点",
+          "pinyin": "diǎn",
+          "english": "o'clock (hour point)",
+          "vietnamese": "giờ (mấy giờ)",
+          "example_sentences": [
+            "上午八点。Shàngwǔ bā diǎn. (8 o'clock in the morning.)",
+            "两点。Liǎng diǎn. (Two o'clock.)"
+          ],
+          "tags": [
+            "measure_word",
+            "time",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "分",
+          "pinyin": "fēn",
+          "english": "minute",
+          "vietnamese": "phút",
+          "example_sentences": [
+            "下午三点十分。Xiàwǔ sān diǎn shí fēn. (3:10 in the afternoon.)"
+          ],
+          "tags": [
+            "measure_word",
+            "time",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "吃饭",
+          "pinyin": "chīfàn",
+          "english": "to eat (a meal)",
+          "vietnamese": "ăn cơm / dùng bữa",
+          "example_sentences": [
+            "我们中午吃饭。Wǒmen zhōngwǔ chīfàn. (We eat at noon.)",
+            "你在哪儿吃饭？Nǐ zài nǎr chīfàn? (Where do you eat?)"
+          ],
+          "tags": [
+            "verb",
+            "food",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "时候",
+          "pinyin": "shíhou",
+          "english": "time / moment",
+          "vietnamese": "lúc / thời điểm",
+          "example_sentences": [
+            "你什么时候回家？Nǐ shénme shíhou huí jiā? (When do you go home?)"
+          ],
+          "tags": [
+            "noun",
+            "time",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "回",
+          "pinyin": "huí",
+          "english": "to return / to go back",
+          "vietnamese": "về / trở về",
+          "example_sentences": [
+            "我六点回家。Wǒ liù diǎn huí jiā. (I go home at six o'clock.)",
+            "你什么时候回学校？Nǐ shénme shíhou huí xuéxiào? (When do you return to school?)"
+          ],
+          "tags": [
+            "verb",
+            "travel",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "我们",
+          "pinyin": "wǒmen",
+          "english": "we / us",
+          "vietnamese": "chúng tôi / chúng ta",
+          "example_sentences": [
+            "我们中午吃饭。Wǒmen zhōngwǔ chīfàn. (We eat at noon.)",
+            "我们去看电影。Wǒmen qù kàn diànyǐng. (We go to watch a movie.)"
+          ],
+          "tags": [
+            "pronoun",
+            "people",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "电影",
+          "pinyin": "diànyǐng",
+          "english": "movie / film",
+          "vietnamese": "phim / điện ảnh",
+          "example_sentences": [
+            "我们去看电影。Wǒmen qù kàn diànyǐng. (We go to watch a movie.)",
+            "看中国电影。Kàn Zhōngguó diànyǐng. (Watch Chinese movies.)"
+          ],
+          "tags": [
+            "noun",
+            "daily_life",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "english": "to live (somewhere) / to stay",
+          "vietnamese": "ở / sống",
+          "example_sentences": [
+            "你住在哪儿？Nǐ zhù zài nǎr? (Where do you live?)",
+            "我在学校住。Wǒ zài xuéxiào zhù. (I live at school.)"
+          ],
+          "tags": [
+            "verb",
+            "place",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        },
+        {
+          "hanzi": "前",
+          "pinyin": "qián",
+          "english": "before / ago / front",
+          "vietnamese": "trước",
+          "example_sentences": [
+            "三天前 sān tiān qián (three days ago)",
+            "五点前 wǔ diǎn qián (before five o'clock)"
+          ],
+          "tags": [
+            "noun",
+            "time",
+            "core"
+          ],
+          "leitner_box": 1,
+          "stroke_order": null,
+          "audio_url": null,
+          "hsk_level": 1
+        }
+      ],
+      "grammar_points": [
+        {
+          "pattern": "……点（……分）",
+          "title": "Telling time",
+          "explanation": "State the hour with 点 and minutes with 分. Prefix with 上午/下午/中午/晚上 for morning/afternoon/noon/evening. Use 两 for two o'clock (两点).",
+          "examples": [
+            "9:00 → 九点 jiǔ diǎn",
+            "3:10 → 下午三点十分 xiàwǔ sān diǎn shí fēn",
+            "2:05 → 两点零五分 liǎng diǎn líng wǔ fēn"
+          ]
+        },
+        {
+          "pattern": "Sub + Time + Verb / Time + Sub + Verb",
+          "title": "Time word as adverbial",
+          "explanation": "A time word can precede or follow the subject. Use 几点 or 什么时候 to ask when.",
+          "examples": [
+            "我星期一早上八点去学校。Wǒ xīngqī yī zǎoshang bā diǎn qù xuéxiào. (I go to school at 8am on Monday.)",
+            "你几点吃饭？Nǐ jǐ diǎn chīfàn? (What time do you eat?)"
+          ]
+        },
+        {
+          "pattern": "Time + 前",
+          "title": "The noun 前 (before/ago)",
+          "explanation": "Place 前 after a time expression to mean 'before that time' or 'that long ago'.",
+          "examples": [
+            "三天前 sān tiān qián (three days ago)",
+            "星期五前 xīngqī wǔ qián (before Friday)",
+            "八点前 bā diǎn qián (before eight o'clock)"
           ]
         }
       ]
