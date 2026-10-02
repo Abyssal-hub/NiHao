@@ -1,4 +1,5 @@
 import vocab from '../data/vocabulary.json'
+import { loadCustomLessons } from './customLessons'
 
 let cachedLessons = null
 
@@ -7,15 +8,35 @@ let cachedLessons = null
  * does not include it on individual words). Lesson ids are numbers for
  * L1-L9 plus the string "appendix" for supplementary vocabulary.
  * Note: lesson 4 does not exist in this dataset (L1,L2,L3,L5..L9).
+ * Custom imported lessons (localStorage) are merged in by lesson number.
  */
 function normalize() {
   if (cachedLessons) return cachedLessons
-  cachedLessons = vocab.lessons.map((l) => ({
+  const builtin = vocab.lessons.map((l) => ({
     lesson: l.lesson,
     title: l.title,
     words: l.words.map((w) => ({ ...w, lesson: l.lesson })),
+    grammar_points: l.grammar_points || [],
   }))
+  const custom = loadCustomLessons().map((l) => ({
+    lesson: l.lesson,
+    title: l.title,
+    words: l.words.map((w) => ({ ...w, lesson: l.lesson })),
+    grammar_points: l.grammar_points || [],
+    custom: true,
+  }))
+  cachedLessons = [...builtin, ...custom].sort((a, b) => {
+    const na = typeof a.lesson === 'number' ? a.lesson : 999
+    const nb = typeof b.lesson === 'number' ? b.lesson : 999
+    return na - nb
+  })
   return cachedLessons
+}
+
+/** Rebuild the merged cache (call after importing/deleting custom lessons). */
+export function refreshLessons() {
+  cachedLessons = null
+  return normalize()
 }
 
 /** All lessons (numeric + appendix), unsorted order as in the file. */

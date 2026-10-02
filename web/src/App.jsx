@@ -5,6 +5,7 @@ import Quiz from './pages/Quiz'
 import Flashcard from './pages/Flashcard'
 import History from './pages/History'
 import Stats from './pages/Stats'
+import Import from './pages/Import'
 import { SpeakerIcon } from './components/Icons'
 import { isMuted, setMuted } from './hooks/useSpeech'
 
@@ -69,6 +70,14 @@ function NavBar() {
             >
               Stats
             </Link>
+            <Link
+              to="/import"
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                isActive('/import') ? 'bg-red-50 text-red-700' : 'text-gray-600 hover:bg-gray-50'
+              }`}
+            >
+              Import
+            </Link>
           </div>
         </div>
       </div>
@@ -87,6 +96,7 @@ export default function App() {
           <Route path="/flashcard" element={<Flashcard />} />
           <Route path="/history" element={<History />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/import" element={<Import />} />
         </Routes>
       </main>
     </div>
