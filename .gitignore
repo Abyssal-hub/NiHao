@@ -34,3 +34,4 @@ web/dist/
 # Vite
 web/dist/
 web/.vite/
+*.apk
