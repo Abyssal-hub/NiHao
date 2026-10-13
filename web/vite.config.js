@@ -6,7 +6,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [
     react(),
-    VitePWA({
+    // PWA is web-only: service workers aren't supported on capacitor:// and
+    // native builds bundle their assets (offline by construction).
+    ...(process.env.CAP_BUILD ? [] : [VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
@@ -41,7 +43,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         navigateFallback: 'index.html',
       },
-    }),
+    })]),
   ],
   base: process.env.CAP_BUILD ? '/' : '/NiHao/',
 })

@@ -1,5 +1,6 @@
 import { Routes, Route, Link, useLocation } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { App as CapApp } from '@capacitor/app'
 import Home from './pages/Home'
 import Quiz from './pages/Quiz'
 import Flashcard from './pages/Flashcard'
@@ -86,6 +87,30 @@ function NavBar() {
 }
 
 export default function App() {
+  // Android hardware back button: navigate in-app, guard active sessions,
+  // minimize at root. Register once for the app lifetime.
+  useEffect(() => {
+    // Capacitor native only — the web/PWA build has no native bridge
+    if (!window.Capacitor?.isNativePlatform()) return
+    let handle
+    CapApp.addListener('backButton', ({ canGoBack }) => {
+      const hash = window.location.hash || '#/'
+      const inSession = /#\/(quiz|flashcard)/.test(hash)
+      if (inSession) {
+        if (window.confirm('Leave this session? Your progress will be lost.')) {
+          window.location.hash = '#/'
+        }
+        return
+      }
+      if (canGoBack) {
+        window.history.back()
+      } else {
+        CapApp.minimizeApp()
+      }
+    }).then((h) => { handle = h }).catch(() => {})
+    return () => { handle?.remove() }
+  }, [])
+
   return (
     <div className="min-h-screen bg-gray-50">
       <NavBar />

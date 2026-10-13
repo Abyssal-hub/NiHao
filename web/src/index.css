@@ -77,3 +77,13 @@
     font-size: 4rem !important;
   }
 }
+
+/* Safe-area insets: keep nav below the status bar and content above
+   the home indicator on notched / gesture-navigation Android devices */
+nav {
+  padding-top: env(safe-area-inset-top, 0);
+}
+
+main {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
